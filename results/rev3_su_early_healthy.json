@@ -1,0 +1,28 @@
+{
+ "tag": "su_early_healthy",
+ "faults": "",
+ "sat_ik_A": null,
+ "ssd_real": false,
+ "early_arm": true,
+ "baseline": false,
+ "cout_F": 1.4e-05,
+ "relay_release_delay_s": 0.005,
+ "tstop_s": 0.08,
+ "seed": 1,
+ "wall_s": 150.1,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.04500259999984126,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.0450125999998412,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  }
+ ]
+}

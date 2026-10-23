@@ -1,0 +1,53 @@
+{
+ "case": "shorted_switch",
+ "tag": "vin53",
+ "relay_release_delay_s": 0.005,
+ "cout_F": 1.4e-05,
+ "noise_scale": 1.0,
+ "blank_s": 0.0,
+ "adaptive_window": true,
+ "seed": 1,
+ "baseline": false,
+ "ssd": true,
+ "ssd_delay_s": 1e-06,
+ "overrides": {
+  "VIN1": "DC 52.8"
+ },
+ "loadstep": false,
+ "t_fault_s": 0.05,
+ "tstop_s": 0.08,
+ "wall_s": 203.6,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.045002199999841265,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "250 cycles averaged"
+  },
+  {
+   "t": 0.045012199999841206,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "250 cycles averaged"
+  },
+  {
+   "t": 0.05006099999981122,
+   "phase": 1,
+   "event": "FAULT_shorted_switch",
+   "detail": "template r=-0.987 beta=-0.37 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+  },
+  {
+   "t": 0.05006099999981122,
+   "phase": 1,
+   "event": "gate_inhibit+relay_open_cmd",
+   "detail": "relay contact opens at 55.0610 ms, SSD opens at 50.0620 ms"
+  },
+  {
+   "t": 0.05006099999981122,
+   "phase": 0,
+   "event": "RECONFIGURED",
+   "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+  }
+ ]
+}

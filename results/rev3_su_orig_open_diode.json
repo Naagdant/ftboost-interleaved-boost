@@ -1,0 +1,28 @@
+{
+ "tag": "su_orig_open_diode",
+ "faults": "open_diode:1@0.005",
+ "sat_ik_A": null,
+ "ssd_real": false,
+ "early_arm": false,
+ "baseline": false,
+ "cout_F": 1.4e-05,
+ "relay_release_delay_s": 0.005,
+ "tstop_s": 0.06,
+ "seed": 1,
+ "wall_s": 110.6,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.045005399999841246,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.04501179999984121,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  }
+ ]
+}

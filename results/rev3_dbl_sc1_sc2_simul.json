@@ -1,0 +1,64 @@
+{
+ "tag": "dbl_sc1_sc2_simul",
+ "faults": "shorted_switch:1@0.05,shorted_switch:2@0.05",
+ "sat_ik_A": null,
+ "ssd_real": false,
+ "early_arm": false,
+ "baseline": false,
+ "cout_F": 1.4e-05,
+ "relay_release_delay_s": 0.005,
+ "tstop_s": 0.08,
+ "seed": 1,
+ "wall_s": 117.0,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.04500259999984126,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.0450125999998412,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.050051799999811276,
+   "phase": 2,
+   "event": "FAULT_shorted_switch",
+   "detail": "template r=-0.982 beta=-0.36 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+  },
+  {
+   "t": 0.050051799999811276,
+   "phase": 2,
+   "event": "gate_inhibit+relay_open_cmd",
+   "detail": "relay contact opens at 55.0518 ms, SSD opens at 50.0528 ms"
+  },
+  {
+   "t": 0.050051799999811276,
+   "phase": 0,
+   "event": "RECONFIGURED",
+   "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+  },
+  {
+   "t": 0.05010219999981098,
+   "phase": 1,
+   "event": "FAULT_shorted_switch",
+   "detail": "template r=-0.970 beta=-0.33 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+  },
+  {
+   "t": 0.05010219999981098,
+   "phase": 1,
+   "event": "gate_inhibit+relay_open_cmd",
+   "detail": "relay contact opens at 55.1022 ms, SSD opens at 50.1032 ms"
+  },
+  {
+   "t": 0.05010219999981098,
+   "phase": 0,
+   "event": "SHUTDOWN",
+   "detail": "no healthy phase left: all gates inhibited, SSDs and relays open"
+  }
+ ]
+}

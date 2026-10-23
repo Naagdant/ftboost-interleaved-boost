@@ -1,0 +1,34 @@
+{
+ "tag": "su_orig_open_inductor",
+ "faults": "open_inductor:1@0.005",
+ "sat_ik_A": null,
+ "ssd_real": false,
+ "early_arm": false,
+ "baseline": false,
+ "cout_F": 1.4e-05,
+ "relay_release_delay_s": 0.005,
+ "tstop_s": 0.06,
+ "seed": 1,
+ "wall_s": 93.4,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.030099999999929766,
+   "phase": 1,
+   "event": "FAULT_open_inductor",
+   "detail": "i<0.208 A for 100 us"
+  },
+  {
+   "t": 0.030099999999929766,
+   "phase": 1,
+   "event": "gate_inhibit+relay_open_cmd",
+   "detail": "relay contact opens at 35.1000 ms, SSD opens at 30.1010 ms"
+  },
+  {
+   "t": 0.030099999999929766,
+   "phase": 0,
+   "event": "RECONFIGURED",
+   "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+  }
+ ]
+}
