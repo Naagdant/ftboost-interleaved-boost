@@ -1,0 +1,89 @@
+.title KiCad schematic
+.include "ft_boost_models.lib"
+.model __SSW1 SW
++             vt=0.5
++             ron=10m
++             roff=1G
+.model __SOD1 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SOL1 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SSW2 SW
++             vt=0.5
++             ron=10m
++             roff=1G
+.model __SOD2 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SOL2 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SSD1 SW
++             vt=0.5
++             ron=20m
++             roff=1G
+.model __SSD2 SW
++             vt=0.5
++             ron=20m
++             roff=1G
+.tran 50n 80m 0 50n
+VFSW1 /FSW1 GND DC 0 
+SSW1 /SW1 GND /FSW1 GND __SSW1
+SOD1 /SW1 /NA1 /FOD1 GND __SOD1
+XD1 /VOUT /NA1 SICSBD650
+SOL1 /NLX1 /SW1 /FOL1 GND __SOL1
+VFOD1 /FOD1 GND DC 1 
+VSSD1 /SSDC1 GND DC 1 
+XQ1 /SW1 /G1 GND NMOS650V
+SSW2 /SW2 GND /FSW2 GND __SSW2
+SOD2 /SW2 /NA2 /FOD2 GND __SOD2
+XD2 /VOUT /NA2 SICSBD650
+XQ2 /SW2 /G2 GND NMOS650V
+SOL2 /NLX2 /SW2 /FOL2 GND __SOL2
+RFB1 /VOUT /VFB 1.99Meg
+VFOD2 /FOD2 GND DC 1 
+VFSW2 /FSW2 GND DC 0 
+VSSD2 /SSDC2 GND DC 1 
+RFB2 /VFB GND 10k
+VAUX1 /V3V3 GND DC 3.3 
+VDUTY1 /DUTY1 GND DC 0.76 
+XDFW1 /NR1 /NFW1 DFAST
+XK1 /VIN /NK1 /RLY1 GND G2RL1A
+XDZ1 GND /NFW1 TVS100
+XRSH1 /NR1 /SNP1 /SNN1 /NS1 RSHUNT10M
+XEG1 /G1 GND /DUTY1 /CAR1 PWM_GDRV
+VCAR1 /CAR1 GND PULSE( 0 1 0 19.99u 10n 0 20u ) 
+VCAR2 /CAR2 GND PULSE( 0 1 10u 19.99u 10n 0 20u ) 
+XDFW2 /NR2 /NFW2 DFAST
+XDZ2 GND /NFW2 TVS100
+XEG2 /G2 GND /DUTY2 /CAR2 PWM_GDRV
+XK2 /VIN /NK2 /RLY2 GND G2RL1A
+XRSH2 /NR2 /SNP2 /SNN2 /NS2 RSHUNT10M
+XU2 /VISO2 /SNP2 /SNN2 /NS2 GND /ISN2 /ISP2 /V3V3 AMC1300
+VRLY1 /RLY1 GND DC 12 
+XU1 /VISO1 /SNP1 /SNN1 /NS1 GND /ISN1 /ISP1 /V3V3 AMC1300
+VISO1 /VISO1 /NS1 DC 5 
+RDCR1 /NS1 /NL1 60m
+L1 /NL1 /NLX1 1m
+SSD1 /NK1 /NR1 /SSDC1 GND __SSD1
+VFOL1 /FOL1 GND DC 1 
+VISO2 /VISO2 /NS2 DC 5 
+SSD2 /NK2 /NR2 /SSDC2 GND __SSD2
+L2 /NL2 /NLX2 1m
+RDCR2 /NS2 /NL2 60m
+VFOL2 /FOL2 GND DC 1 
+RLOAD1 /VOUT GND 200
+RESR1 /NESR GND 10m
+COUT1 /VOUT /NESR 14u
+VRLY2 /RLY2 GND DC 12 
+VDUTY2 /DUTY2 GND DC 0.76 
+VIN1 /VSRC GND DC 48 
+CIN1 /VIN GND 100u
+RSRC1 /VSRC /VIN 20m
+.end
