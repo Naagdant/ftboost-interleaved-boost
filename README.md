@@ -2,8 +2,8 @@
 
 KiCad design, SPICE models and Python co-simulation code for the paper
 
-> K. D. Bodha, V. Arun, A. Awasthi, *Fault-Tolerant Two-Phase Interleaved Boost Converter with Off-Time
-> Template Diagnosis and Hybrid Solid-State/Relay Phase Isolation for 48 V Electric-Vehicle Buses* (submitted).
+> K. D. Bodha, V. Arun, A. Awasthi, *Current-Only Diagnosis and Hybrid Isolation of Open-Inductor, Stuck-On-Switch
+> and Open-Diode Faults in a Two-Phase Interleaved Boost Converter for 48 V Electric-Vehicle Buses* (submitted).
 
 A two-phase, 50 kHz, 48 V → 200 V interleaved boost converter that detects, classifies and isolates an
 **open inductor**, a **stuck-on (shorted) switch** or an **open diode** in either phase and keeps regulating

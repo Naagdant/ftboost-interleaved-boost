@@ -14,7 +14,7 @@ authors:
 license: MIT
 preferred-citation:
   type: article
-  title: "Fault-Tolerant Two-Phase Interleaved Boost Converter with Off-Time Template Diagnosis and Hybrid Solid-State/Relay Phase Isolation for 48 V Electric-Vehicle Buses"
+  title: "Current-Only Diagnosis and Hybrid Isolation of Open-Inductor, Stuck-On-Switch and Open-Diode Faults in a Two-Phase Interleaved Boost Converter for 48 V Electric-Vehicle Buses"
   authors:
     - family-names: Bodha
       given-names: Kapil Deo
