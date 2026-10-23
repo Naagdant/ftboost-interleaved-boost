@@ -1,0 +1,340 @@
+{
+ "level@1x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     103.2,
+     103.4
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     101.0,
+     101.4
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "0/5",
+    "latency_us": null,
+    "correct_class": 0,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "level@3x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     103.0,
+     103.6
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     101.0,
+     102.4
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "0/5",
+    "latency_us": null,
+    "correct_class": 0,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "r_fixed@1x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     65.4,
+     65.4
+    ],
+    "correct_class": 0,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     60.2,
+     60.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "5/5",
+    "latency_us": [
+     85.4,
+     85.4
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "r_fixed@3x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     45.4,
+     65.4
+    ],
+    "correct_class": 0,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     60.2,
+     60.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "5/5",
+    "latency_us": [
+     85.4,
+     85.4
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "r_adaptive@1x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     62.2
+    ],
+    "correct_class": 0,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     61.8,
+     61.8
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "0/5",
+    "latency_us": null,
+    "correct_class": 0,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "r_adaptive@3x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     62.2
+    ],
+    "correct_class": 0,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     61.8,
+     61.8
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "0/5",
+    "latency_us": null,
+    "correct_class": 0,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "beta_only@1x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     62.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     61.8,
+     61.8
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "5/5",
+    "latency_us": [
+     102.2,
+     102.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "beta_only@3x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     62.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     61.8,
+     61.8
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     102.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "proposed@1x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     62.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     61.8,
+     61.8
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     62.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ },
+ "proposed@3x": {
+  "faults": {
+   "open_inductor": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     62.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "shorted_switch": {
+    "detected": "5/5",
+    "latency_us": [
+     61.8,
+     61.8
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   },
+   "open_diode": {
+    "detected": "5/5",
+    "latency_us": [
+     62.2,
+     62.2
+    ],
+    "correct_class": 5,
+    "false_before_fault": 0
+   }
+  },
+  "healthy": {
+   "false_trips": 0,
+   "observed_s": 1.05
+  }
+ }
+}

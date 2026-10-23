@@ -1,0 +1,51 @@
+{
+ "case": "open_diode",
+ "tag": "c150u_final",
+ "relay_release_delay_s": 0.005,
+ "cout_F": 0.00015,
+ "noise_scale": 1.0,
+ "blank_s": 0.0,
+ "adaptive_window": true,
+ "seed": 1,
+ "baseline": false,
+ "ssd": true,
+ "ssd_delay_s": 1e-06,
+ "overrides": {},
+ "loadstep": false,
+ "t_fault_s": 0.05,
+ "tstop_s": 0.08,
+ "wall_s": 279.5,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.04500259999984126,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.0450125999998412,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.050062199999811215,
+   "phase": 1,
+   "event": "FAULT_open_diode",
+   "detail": "template r=0.992 beta=3.67 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+  },
+  {
+   "t": 0.050062199999811215,
+   "phase": 1,
+   "event": "gate_inhibit+relay_open_cmd",
+   "detail": "relay contact opens at 55.0622 ms, SSD opens at 50.0632 ms"
+  },
+  {
+   "t": 0.050062199999811215,
+   "phase": 0,
+   "event": "RECONFIGURED",
+   "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+  }
+ ]
+}

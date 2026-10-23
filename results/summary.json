@@ -1,0 +1,3741 @@
+[
+ {
+  "case": "healthy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   }
+  ],
+  "wall_s": 462.6,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00109878690094,
+   "vout_pp": 0.362830966400594,
+   "i1_rms": 2.130936315118323,
+   "i2_rms": 2.130928224555903,
+   "i1_peak": 2.4657486137641627,
+   "i2_peak": 2.4648583884825825,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.81883339542733,
+   "vout_max": 200.18276164898109,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00106117860713,
+   "vout_end_pp": 0.35993409770122753,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.4655945906950194,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.465466011969397,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1309375529450083,
+   "i2_end_peak": 2.46491376758442,
+   "i2_end_pp": 0.6787002754059301
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996130376593,
+   "post_min": 0.9995379433888499,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996492055534,
+   "post_min": 0.9995389152118701,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ {
+  "case": "healthy_c150u",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   }
+  ],
+  "wall_s": 417.5,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99316782505048,
+   "vout_pp": 0.229555497378783,
+   "i1_rms": 2.127586552874968,
+   "i2_rms": 2.1275554414974294,
+   "i1_peak": 2.4710145755804547,
+   "i2_peak": 2.4722449194712226,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.96831053870685,
+   "vout_max": 200.0384994102534,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.0003267089743,
+   "vout_end_pp": 0.050291155500048035,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.4661434530919735,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.4659952149313824,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1309359386613065,
+   "i2_end_peak": 2.464639611473274,
+   "i2_end_pp": 0.6781509218207304
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996284071275,
+   "post_min": 0.9995367659305843,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996350410802,
+   "post_min": 0.9995375351956429,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ {
+  "case": "healthy_c150u_final",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   }
+  ],
+  "wall_s": 322.7,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99369596373003,
+   "vout_pp": 0.23409739734674417,
+   "i1_rms": 2.1294286543079948,
+   "i2_rms": 2.129415211573818,
+   "i1_peak": 2.4761934332310886,
+   "i2_peak": 2.4768069978200913,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.96777158250745,
+   "vout_max": 200.0409768841305,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00040306283302,
+   "vout_end_pp": 0.05155452636475388,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.4710518582168106,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.4717285695480484,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1329923786596856,
+   "i2_end_peak": 2.4697946549736116,
+   "i2_end_pp": 0.6842471766518088
+  },
+  "corr_ph1": {
+   "pre_min": 0.9948565777335844,
+   "post_min": 0.9938056413036653,
+   "post_first5": [
+    0.996,
+    0.998,
+    0.997,
+    0.997,
+    0.998
+   ],
+   "beta_pre_range": [
+    0.915,
+    1.065
+   ],
+   "beta_post_range": [
+    0.925,
+    1.07
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9941588669887766,
+   "post_min": 0.9925212528132241,
+   "post_first5": [
+    0.996,
+    0.997,
+    0.997,
+    0.997,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.935,
+    1.063
+   ],
+   "beta_post_range": [
+    0.914,
+    1.079
+   ]
+  }
+ },
+ {
+  "case": "healthy_c150u_noisy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   }
+  ],
+  "wall_s": 256.7,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99318788687134,
+   "vout_pp": 0.22984950617046707,
+   "i1_rms": 2.1275826770890105,
+   "i2_rms": 2.127573198536537,
+   "i1_peak": 2.4742651271211002,
+   "i2_peak": 2.477153843910429,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.9678691577289,
+   "vout_max": 200.04035610865492,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.0002006768745,
+   "vout_end_pp": 0.05175255465394457,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.469979633233521,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.4691577901840844,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1310770758136885,
+   "i2_end_peak": 2.4684195274446097,
+   "i2_end_pp": 0.685389622429966
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944803095762084,
+   "post_min": 0.9936061513867914,
+   "post_first5": [
+    0.996,
+    0.998,
+    0.997,
+    0.998,
+    0.998
+   ],
+   "beta_pre_range": [
+    0.914,
+    1.067
+   ],
+   "beta_post_range": [
+    0.924,
+    1.068
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9932640323951019,
+   "post_min": 0.9936582684536962,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.935,
+    1.062
+   ],
+   "beta_post_range": [
+    0.91,
+    1.083
+   ]
+  }
+ },
+ {
+  "case": "healthy_final",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   }
+  ],
+  "wall_s": 322.6,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00127352590428,
+   "vout_pp": 0.3807532141166803,
+   "i1_rms": 2.1328170536260838,
+   "i2_rms": 2.1328256152703715,
+   "i1_peak": 2.470664538609668,
+   "i2_peak": 2.4712014016444073,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.80919202749584,
+   "vout_max": 200.19382697851609,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00105257410524,
+   "vout_end_pp": 0.3846349510202458,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.4714764024402314,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.4740144067635583,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1329971629660087,
+   "i2_end_peak": 2.4740144067635583,
+   "i2_end_pp": 0.6920104191308951
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944849087533391,
+   "post_min": 0.9931065128535821,
+   "post_first5": [
+    0.997,
+    0.996,
+    0.998,
+    0.998,
+    0.998
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.061
+   ],
+   "beta_post_range": [
+    0.927,
+    1.072
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9931579133457752,
+   "post_min": 0.9920951647204476,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.998
+   ],
+   "beta_pre_range": [
+    0.938,
+    1.066
+   ],
+   "beta_post_range": [
+    0.915,
+    1.08
+   ]
+  }
+ },
+ {
+  "case": "healthy_l2mismatch",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   }
+  ],
+  "wall_s": 346.7,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00131310537355,
+   "vout_pp": 0.38107768557418353,
+   "i1_rms": 2.132822195491962,
+   "i2_rms": 2.1310592826088945,
+   "i1_peak": 2.47004987711108,
+   "i2_peak": 2.439220164210809,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.8118517700305,
+   "vout_max": 200.1933815849927,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00111702172867,
+   "vout_end_pp": 0.3764949885501494,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.471603225347252,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.441766249073396,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1312310971595023,
+   "i2_end_peak": 2.440294764298301,
+   "i2_end_pp": 0.6248110214940539
+  },
+  "corr_ph1": {
+   "pre_min": 0.9945399219359141,
+   "post_min": 0.9934844067348839,
+   "post_first5": [
+    0.996,
+    0.997,
+    0.997,
+    0.997,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.066
+   ],
+   "beta_post_range": [
+    0.922,
+    1.071
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.992050909822725,
+   "post_min": 0.9907165925594247,
+   "post_first5": [
+    0.995,
+    0.996,
+    0.997,
+    0.997,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.923,
+    1.068
+   ],
+   "beta_post_range": [
+    0.906,
+    1.084
+   ]
+  }
+ },
+ {
+  "case": "healthy_loadstep",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   }
+  ],
+  "wall_s": 359.9,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.0006948063563,
+   "vout_pp": 0.20535509556083298,
+   "i1_rms": 1.0765407447820128,
+   "i2_rms": 1.076497866810664,
+   "i1_peak": 1.4060149568699387,
+   "i2_peak": 1.4063928870982068,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 194.00666197651748,
+   "vout_max": 206.15596662196052,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00078826340823,
+   "vout_end_pp": 0.1997327446225654,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.4968427407564775,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.4967802178302634,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 1.0766649086870352,
+   "i2_end_peak": 1.4064570513397712,
+   "i2_end_pp": 0.6911822169982429
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944731675920688,
+   "post_min": 0.9935710063914938,
+   "post_first5": [
+    0.997,
+    0.997,
+    0.997,
+    0.997,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.92,
+    1.068
+   ],
+   "beta_post_range": [
+    0.925,
+    1.07
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9933758415055128,
+   "post_min": 0.9918578731626818,
+   "post_first5": [
+    0.996,
+    0.996,
+    0.996,
+    0.996,
+    0.996
+   ],
+   "beta_pre_range": [
+    0.93,
+    1.063
+   ],
+   "beta_post_range": [
+    0.913,
+    1.086
+   ]
+  }
+ },
+ {
+  "case": "healthy_noisy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   }
+  ],
+  "wall_s": 256.9,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.0013987618771,
+   "vout_pp": 0.3805394189294873,
+   "i1_rms": 2.130861843150094,
+   "i2_rms": 2.1308677583735207,
+   "i1_peak": 2.4686067868735506,
+   "i2_peak": 2.4706271341578656,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.80628665195158,
+   "vout_max": 200.19136457522592,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00108743493243,
+   "vout_end_pp": 0.38357668783299914,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.470759585293081,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.471657363914659,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1310170723066815,
+   "i2_end_peak": 2.4694703169643617,
+   "i2_end_pp": 0.6887560393053604
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944159565048785,
+   "post_min": 0.9934186220944621,
+   "post_first5": [
+    0.996,
+    0.998,
+    0.997,
+    0.997,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.064
+   ],
+   "beta_post_range": [
+    0.924,
+    1.071
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9936935628890085,
+   "post_min": 0.9937397583068892,
+   "post_first5": [
+    0.996,
+    0.997,
+    0.997,
+    0.996,
+    0.998
+   ],
+   "beta_pre_range": [
+    0.94,
+    1.076
+   ],
+   "beta_post_range": [
+    0.914,
+    1.076
+   ]
+  }
+ },
+ {
+  "case": "healthy_vin43",
+  "events": [
+   {
+    "t": 0.04500319999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450131999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   }
+  ],
+  "wall_s": 355.0,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.0004166671404,
+   "vout_pp": 0.4529588030729883,
+   "i1_rms": 2.374380803489811,
+   "i2_rms": 2.3743815372279657,
+   "i1_peak": 2.7046158313012825,
+   "i2_peak": 2.705271188252567,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.76682637855967,
+   "vout_max": 200.21262767778683,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00017743500595,
+   "vout_end_pp": 0.4337650543211282,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.7069070435999265,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.706316453071622,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.374630556910895,
+   "i2_end_peak": 2.7058798412106455,
+   "i2_end_pp": 0.6497840696169987
+  },
+  "corr_ph1": {
+   "pre_min": 0.9927161663653943,
+   "post_min": 0.9903766789764071,
+   "post_first5": [
+    0.996,
+    0.997,
+    0.997,
+    0.996,
+    0.998
+   ],
+   "beta_pre_range": [
+    0.929,
+    1.086
+   ],
+   "beta_post_range": [
+    0.892,
+    1.077
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9924713265916101,
+   "post_min": 0.99042046698016,
+   "post_first5": [
+    0.994,
+    0.996,
+    0.996,
+    0.997,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.92,
+    1.061
+   ],
+   "beta_post_range": [
+    0.892,
+    1.088
+   ]
+  }
+ },
+ {
+  "case": "healthy_vin53",
+  "events": [
+   {
+    "t": 0.045002199999841265,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.045012199999841206,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   }
+  ],
+  "wall_s": 344.4,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99870019032568,
+   "vout_pp": 0.38720375852020084,
+   "i1_rms": 1.9399620368564288,
+   "i2_rms": 1.939941529019588,
+   "i1_peak": 2.318849462252359,
+   "i2_peak": 2.320421052962729,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.79038604343944,
+   "vout_max": 200.17299113759196,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 199.99849529455557,
+   "vout_end_pp": 0.3770706061277167,
+   "no_shutdown": true,
+   "detection": [],
+   "i1_peak": 2.3214887038655263,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 2.3212250073903817,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 1.9401216512204604,
+   "i2_end_peak": 2.319064662358983,
+   "i2_end_pp": 0.7568591188778839
+  },
+  "corr_ph1": {
+   "pre_min": 0.9953629172913889,
+   "post_min": 0.9937844936699811,
+   "post_first5": [
+    0.997,
+    0.997,
+    0.998,
+    0.998,
+    0.998
+   ],
+   "beta_pre_range": [
+    0.933,
+    1.059
+   ],
+   "beta_post_range": [
+    0.928,
+    1.064
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9950109893082373,
+   "post_min": 0.994247658153673,
+   "post_first5": [
+    0.997,
+    0.998,
+    0.998,
+    0.997,
+    0.998
+   ],
+   "beta_pre_range": [
+    0.942,
+    1.057
+   ],
+   "beta_post_range": [
+    0.916,
+    1.07
+   ]
+  }
+ },
+ {
+  "case": "open_diode",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.05008539999981108,
+    "phase": 1,
+    "event": "FAULT_open_diode",
+    "detail": "template r=0.612 < 0.8 for 3 windows"
+   },
+   {
+    "t": 0.05008539999981108,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0854 ms"
+   },
+   {
+    "t": 0.05008539999981108,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 423.2,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00109878690094,
+   "vout_pp": 0.362830966400594,
+   "i1_rms": 2.130936315118323,
+   "i2_rms": 2.130928224555903,
+   "i1_peak": 2.4657486137641627,
+   "i2_peak": 2.4648583884825825,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 191.8145169646388,
+   "vout_max": 200.7150930789035,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00112700659227,
+   "vout_end_pp": 1.067986907495822,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_diode",
+     "latency_us": 85.3999998110741,
+     "detail": "template r=0.612 < 0.8 for 3 windows"
+    }
+   ],
+   "i1_peak": 2.4635939977819987,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.760067996060769,
+   "i2_time_above_2ph_bound_us": 29858.999999822674,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.283766967555523,
+   "i2_end_peak": 4.618995570567108,
+   "i2_end_pp": 0.6735571434489884
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996130376593,
+   "post_min": 0.5472483199100338,
+   "post_first5": [
+    1.0,
+    0.999,
+    0.547,
+    0.703,
+    0.612
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996492055534,
+   "post_min": 0.3545222706326532,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    0.997,
+    0.993
+   ],
+   "survivor_reconf_1ms_min": 0.3545222706326532,
+   "survivor_reconf_1ms_windows_below_0.8": 5,
+   "survivor_after_1ms_min": 0.9993854157915524
+  }
+ },
+ {
+  "case": "open_diode_baseline",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "WOULD_DETECT_open_diode",
+    "detail": "template r=0.992 beta=3.67 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows (baseline: no isolation)"
+   }
+  ],
+  "wall_s": 347.5,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00127352590428,
+   "vout_pp": 0.3807532141166803,
+   "i1_rms": 2.1328170536260838,
+   "i2_rms": 2.1328256152703715,
+   "i1_peak": 2.470664538609668,
+   "i2_peak": 2.4712014016444073,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 167.3509972894999,
+   "vout_max": 200.17808163682253,
+   "recovery_time_ms": 29.999800000240565,
+   "recovered_within_1ms": false,
+   "vout_end_mean": 167.78116916864565,
+   "vout_end_pp": 0.8567888572516722,
+   "no_shutdown": false,
+   "detection": [],
+   "i1_peak": 2.4596969848758476,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 3.512171461125746,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 3.006216523771782,
+   "i2_end_peak": 3.319747134074902,
+   "i2_end_pp": 0.6420556813417022
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944849087533391,
+   "post_min": 0.6216768025671039,
+   "post_first5": [
+    0.997,
+    0.999,
+    0.622,
+    0.992,
+    0.972
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.061
+   ],
+   "beta_post_range": [
+    0.512,
+    4.801
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9931579133457752,
+   "post_min": 0.9876355671528916,
+   "post_first5": [
+    0.995,
+    0.996,
+    0.998,
+    0.996,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.938,
+    1.066
+   ],
+   "beta_post_range": [
+    0.948,
+    1.139
+   ]
+  }
+ },
+ {
+  "case": "open_diode_c150u",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.05008539999981108,
+    "phase": 1,
+    "event": "FAULT_open_diode",
+    "detail": "template r=0.612 < 0.8 for 3 windows"
+   },
+   {
+    "t": 0.05008539999981108,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0854 ms"
+   },
+   {
+    "t": 0.05008539999981108,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 375.5,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99316782505048,
+   "vout_pp": 0.229555497378783,
+   "i1_rms": 2.127586552874968,
+   "i2_rms": 2.1275554414974294,
+   "i1_peak": 2.4710145755804547,
+   "i2_peak": 2.4722449194712226,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.2626780124523,
+   "vout_max": 200.32303047947505,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00183864905443,
+   "vout_end_pp": 0.13731118067792636,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_diode",
+     "latency_us": 85.3999998110741,
+     "detail": "template r=0.612 < 0.8 for 3 windows"
+    }
+   ],
+   "i1_peak": 2.4584791964201713,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.038193400417157,
+   "i2_time_above_2ph_bound_us": 29846.999999822743,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.283610613558194,
+   "i2_end_peak": 4.619167606472985,
+   "i2_end_pp": 0.6713596274458666
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996284071275,
+   "post_min": 0.5287028778739322,
+   "post_first5": [
+    1.0,
+    0.999,
+    0.529,
+    0.704,
+    0.612
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996350410802,
+   "post_min": 0.37682735154480906,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "survivor_reconf_1ms_min": 0.37682735154480906,
+   "survivor_reconf_1ms_windows_below_0.8": 4,
+   "survivor_after_1ms_min": 0.9993711509861224
+  }
+ },
+ {
+  "case": "open_diode_c150u_final",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_diode",
+    "detail": "template r=0.992 beta=3.67 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0622 ms, SSD opens at 50.0632 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 279.5,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99369596373003,
+   "vout_pp": 0.23409739734674417,
+   "i1_rms": 2.1294286543079948,
+   "i2_rms": 2.129415211573818,
+   "i1_peak": 2.4761934332310886,
+   "i2_peak": 2.4768069978200913,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.3306189885953,
+   "vout_max": 200.29236055610383,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00146182321637,
+   "vout_end_pp": 0.1385277822118951,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_diode",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.992 beta=3.67 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 2.4593379868669274,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.014810168542283,
+   "i2_time_above_2ph_bound_us": 29866.999999822627,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.2911915333666215,
+   "i2_end_peak": 4.631633790160805,
+   "i2_end_pp": 0.6808075097573862
+  },
+  "corr_ph1": {
+   "pre_min": 0.9948565777335844,
+   "post_min": 0.6140502024761966,
+   "post_first5": [
+    0.996,
+    0.999,
+    0.614,
+    0.992
+   ],
+   "beta_pre_range": [
+    0.915,
+    1.065
+   ],
+   "beta_post_range": [
+    0.489,
+    3.848
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9941588669887766,
+   "post_min": 0.9698445890995758,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.99
+   ],
+   "beta_pre_range": [
+    0.935,
+    1.063
+   ],
+   "beta_post_range": [
+    0.915,
+    1.093
+   ],
+   "survivor_reconf_1ms_min": 0.9698445890995758,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9903289685982924,
+   "survivor_reconf_1ms_beta_range": [
+    0.918,
+    1.093
+   ]
+  }
+ },
+ {
+  "case": "open_diode_c150u_noisy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_diode",
+    "detail": "template r=0.992 beta=3.68 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0622 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 240.0,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99318788687134,
+   "vout_pp": 0.22984950617046707,
+   "i1_rms": 2.1275826770890105,
+   "i2_rms": 2.127573198536537,
+   "i1_peak": 2.4742651271211002,
+   "i2_peak": 2.477153843910429,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.3323027143429,
+   "vout_max": 200.2936650413023,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00152283081044,
+   "vout_end_pp": 0.13908230415617595,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_diode",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.992 beta=3.68 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 2.4576103366548807,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.00877303551448,
+   "i2_time_above_2ph_bound_us": 29866.999999822627,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.283332725034922,
+   "i2_end_peak": 4.624202861035087,
+   "i2_end_pp": 0.6807888756036107
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944803095762084,
+   "post_min": 0.6104316687815815,
+   "post_first5": [
+    0.996,
+    0.999,
+    0.61,
+    0.992
+   ],
+   "beta_pre_range": [
+    0.914,
+    1.067
+   ],
+   "beta_post_range": [
+    0.485,
+    3.852
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9932640323951019,
+   "post_min": 0.9697224357590937,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.979
+   ],
+   "beta_pre_range": [
+    0.935,
+    1.062
+   ],
+   "beta_post_range": [
+    0.909,
+    1.082
+   ],
+   "survivor_reconf_1ms_min": 0.9697224357590937,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9920755299500587,
+   "survivor_reconf_1ms_beta_range": [
+    0.916,
+    1.075
+   ]
+  }
+ },
+ {
+  "case": "open_diode_final",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_diode",
+    "detail": "template r=0.992 beta=3.67 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0622 ms, SSD opens at 50.0632 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 281.6,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00127352590428,
+   "vout_pp": 0.3807532141166803,
+   "i1_rms": 2.1328170536260838,
+   "i2_rms": 2.1328256152703715,
+   "i1_peak": 2.470664538609668,
+   "i2_peak": 2.4712014016444073,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.49055469145318,
+   "vout_max": 200.7095002775656,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00130358450218,
+   "vout_end_pp": 1.0840500592088063,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_diode",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.992 beta=3.67 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 2.4596969848758476,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.614453429267741,
+   "i2_time_above_2ph_bound_us": 29868.999999822612,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.291359593868395,
+   "i2_end_peak": 4.631620309464779,
+   "i2_end_pp": 0.681864083421857
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944849087533391,
+   "post_min": 0.6216768025671039,
+   "post_first5": [
+    0.997,
+    0.999,
+    0.622,
+    0.992
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.061
+   ],
+   "beta_post_range": [
+    0.512,
+    3.86
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9931579133457752,
+   "post_min": 0.9682242609283581,
+   "post_first5": [
+    0.995,
+    0.996,
+    0.998,
+    0.996,
+    0.987
+   ],
+   "beta_pre_range": [
+    0.938,
+    1.066
+   ],
+   "beta_post_range": [
+    0.884,
+    1.097
+   ],
+   "survivor_reconf_1ms_min": 0.9682242609283581,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9920589485185947,
+   "survivor_reconf_1ms_beta_range": [
+    0.884,
+    1.097
+   ]
+  }
+ },
+ {
+  "case": "open_diode_halfload",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_diode",
+    "detail": "template r=0.969 beta=2.82 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0622 ms, SSD opens at 50.0632 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 316.8,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00077315718994,
+   "vout_pp": 0.1981006228074591,
+   "i1_rms": 1.0765281797829607,
+   "i2_rms": 1.076504794235819,
+   "i1_peak": 1.4070409555735353,
+   "i2_peak": 1.4064238132704077,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 197.21502003119454,
+   "vout_max": 200.5202811034382,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.0006782693812,
+   "vout_end_pp": 0.5478040553334722,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_diode",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.969 beta=2.82 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 1.392566550617147,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 3.429482919629123,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1312017626806847,
+   "i2_end_peak": 2.470216315021645,
+   "i2_end_pp": 0.6891888691406223
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944136989139608,
+   "post_min": 0.6787137767818845,
+   "post_first5": [
+    0.996,
+    0.915,
+    0.679,
+    0.969
+   ],
+   "beta_pre_range": [
+    0.92,
+    1.068
+   ],
+   "beta_post_range": [
+    0.66,
+    2.815
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9941424545600563,
+   "post_min": 0.9731138401903181,
+   "post_first5": [
+    0.996,
+    0.996,
+    0.997,
+    0.998,
+    0.989
+   ],
+   "beta_pre_range": [
+    0.941,
+    1.059
+   ],
+   "beta_post_range": [
+    0.914,
+    1.082
+   ],
+   "survivor_reconf_1ms_min": 0.9731138401903181,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9925430849938366,
+   "survivor_reconf_1ms_beta_range": [
+    0.947,
+    1.073
+   ]
+  }
+ },
+ {
+  "case": "open_diode_noisy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_diode",
+    "detail": "template r=0.991 beta=3.71 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0622 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 239.4,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.0013987618771,
+   "vout_pp": 0.3805394189294873,
+   "i1_rms": 2.130861843150094,
+   "i2_rms": 2.1308677583735207,
+   "i1_peak": 2.4686067868735506,
+   "i2_peak": 2.4706271341578656,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.4960382401558,
+   "vout_max": 200.7423706020108,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00125431329232,
+   "vout_end_pp": 1.0873380693067816,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_diode",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.991 beta=3.71 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 2.459363225785438,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.616396844786209,
+   "i2_time_above_2ph_bound_us": 29868.999999822612,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.28356716910471,
+   "i2_end_peak": 4.624220404361523,
+   "i2_end_pp": 0.6838945307947597
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944159565048785,
+   "post_min": 0.6214061275953663,
+   "post_first5": [
+    0.996,
+    0.999,
+    0.621,
+    0.991
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.064
+   ],
+   "beta_post_range": [
+    0.512,
+    3.855
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9936935628890085,
+   "post_min": 0.9694032628287524,
+   "post_first5": [
+    0.996,
+    0.996,
+    0.997,
+    0.996,
+    0.978
+   ],
+   "beta_pre_range": [
+    0.94,
+    1.076
+   ],
+   "beta_post_range": [
+    0.902,
+    1.095
+   ],
+   "survivor_reconf_1ms_min": 0.9694032628287524,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9922904579276028,
+   "survivor_reconf_1ms_beta_range": [
+    0.902,
+    1.095
+   ]
+  }
+ },
+ {
+  "case": "open_diode_vin43",
+  "events": [
+   {
+    "t": 0.04500319999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450131999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_diode",
+    "detail": "template r=0.982 beta=3.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0622 ms, SSD opens at 50.0632 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 206.8,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.0004166671404,
+   "vout_pp": 0.4529588030729883,
+   "i1_rms": 2.374380803489811,
+   "i2_rms": 2.3743815372279657,
+   "i1_peak": 2.7046158313012825,
+   "i2_peak": 2.705271188252567,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 191.94908439703997,
+   "vout_max": 200.57058169124028,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 199.9982137271172,
+   "vout_end_pp": 1.160355045125101,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_diode",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.982 beta=3.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 2.686465731218135,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.612624693158352,
+   "i2_time_above_2ph_bound_us": 29867.99999982262,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.792768274668851,
+   "i2_end_peak": 5.128471305070548,
+   "i2_end_pp": 0.6480829165333546
+  },
+  "corr_ph1": {
+   "pre_min": 0.9927161663653943,
+   "post_min": 0.7842804709766533,
+   "post_first5": [
+    0.996,
+    1.0,
+    0.784,
+    0.982
+   ],
+   "beta_pre_range": [
+    0.929,
+    1.086
+   ],
+   "beta_post_range": [
+    0.965,
+    3.838
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9924713265916101,
+   "post_min": 0.9699172571155344,
+   "post_first5": [
+    0.995,
+    0.996,
+    0.995,
+    0.997,
+    0.982
+   ],
+   "beta_pre_range": [
+    0.92,
+    1.061
+   ],
+   "beta_post_range": [
+    0.854,
+    1.092
+   ],
+   "survivor_reconf_1ms_min": 0.9699172571155344,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9902761156840892,
+   "survivor_reconf_1ms_beta_range": [
+    0.854,
+    1.091
+   ]
+  }
+ },
+ {
+  "case": "open_inductor",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.05010319999981097,
+    "phase": 1,
+    "event": "FAULT_open_inductor",
+    "detail": "i<0.208 A for 100 us"
+   },
+   {
+    "t": 0.05010319999981097,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.1032 ms"
+   },
+   {
+    "t": 0.05010319999981097,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 417.3,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00109878690094,
+   "vout_pp": 0.362830966400594,
+   "i1_rms": 2.130936315118323,
+   "i2_rms": 2.130928224555903,
+   "i1_peak": 2.4657486137641627,
+   "i2_peak": 2.4648583884825825,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 191.4571663995962,
+   "vout_max": 200.75933707988636,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00139622188559,
+   "vout_end_pp": 1.0693318116711055,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_inductor",
+     "latency_us": 103.1999998109684,
+     "detail": "i<0.208 A for 100 us"
+    }
+   ],
+   "i1_peak": 4.843343504035147e-08,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.755860902594634,
+   "i2_time_above_2ph_bound_us": 29841.999999822776,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.283452492041241,
+   "i2_end_peak": 4.618630864800366,
+   "i2_end_pp": 0.674120620686125
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996130376593,
+   "post_min": 0.5742769969331034,
+   "post_first5": [
+    0.82,
+    0.574,
+    0.913,
+    0.913,
+    0.913
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996492055534,
+   "post_min": 0.3488886418785847,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    0.997,
+    0.993
+   ],
+   "survivor_reconf_1ms_min": 0.3488886418785847,
+   "survivor_reconf_1ms_windows_below_0.8": 5,
+   "survivor_after_1ms_min": 0.9993815867083184
+  }
+ },
+ {
+  "case": "open_inductor_baseline",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "WOULD_DETECT_open_inductor",
+    "detail": "template r=0.106 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows (baseline: no isolation)"
+   }
+  ],
+  "wall_s": 330.4,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00127352590428,
+   "vout_pp": 0.3807532141166803,
+   "i1_rms": 2.1328170536260838,
+   "i2_rms": 2.1328256152703715,
+   "i1_peak": 2.470664538609668,
+   "i2_peak": 2.4712014016444073,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 167.36631322449486,
+   "vout_max": 200.17793225216835,
+   "recovery_time_ms": 29.999800000240565,
+   "recovered_within_1ms": false,
+   "vout_end_mean": 167.79405360428154,
+   "vout_end_pp": 0.8552374052086407,
+   "no_shutdown": false,
+   "detection": [],
+   "i1_peak": 4.843414558308723e-08,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 3.512949100478835,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 3.0062187149169834,
+   "i2_end_peak": 3.3210230776198557,
+   "i2_end_pp": 0.6427102995615996
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944849087533391,
+   "post_min": -0.964658795876893,
+   "post_first5": [
+    0.937,
+    -0.083,
+    -0.083,
+    0.106,
+    -0.721
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.061
+   ],
+   "beta_post_range": [
+    -0.415,
+    1.17
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9931579133457752,
+   "post_min": 0.9872781482417036,
+   "post_first5": [
+    0.995,
+    0.996,
+    0.997,
+    0.997,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.938,
+    1.066
+   ],
+   "beta_post_range": [
+    0.956,
+    1.136
+   ]
+  }
+ },
+ {
+  "case": "open_inductor_c150u",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.05010299999981097,
+    "phase": 1,
+    "event": "FAULT_open_inductor",
+    "detail": "i<0.208 A for 100 us"
+   },
+   {
+    "t": 0.05010299999981097,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.1030 ms"
+   },
+   {
+    "t": 0.05010299999981097,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 373.4,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99316782505048,
+   "vout_pp": 0.229555497378783,
+   "i1_rms": 2.127586552874968,
+   "i2_rms": 2.1275554414974294,
+   "i1_peak": 2.4710145755804547,
+   "i2_peak": 2.4722449194712226,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.19615285994422,
+   "vout_max": 200.35286026938607,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00189946095554,
+   "vout_end_pp": 0.13795884596493124,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_inductor",
+     "latency_us": 102.99999981096958,
+     "detail": "i<0.208 A for 100 us"
+    }
+   ],
+   "i1_peak": 4.843343504035147e-08,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.064652698899863,
+   "i2_time_above_2ph_bound_us": 29826.999999822863,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.282581412603327,
+   "i2_end_peak": 4.61838463362696,
+   "i2_end_pp": 0.6730188404731052
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996284071275,
+   "post_min": 0.5771747399902062,
+   "post_first5": [
+    0.821,
+    0.577,
+    0.913,
+    0.914,
+    0.914
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996350410802,
+   "post_min": 0.37489688297221385,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "survivor_reconf_1ms_min": 0.37489688297221385,
+   "survivor_reconf_1ms_windows_below_0.8": 4,
+   "survivor_after_1ms_min": 0.9993785955567888
+  }
+ },
+ {
+  "case": "open_inductor_c150u_final",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_inductor",
+    "detail": "template r=0.107 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0622 ms, SSD opens at 50.0632 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 281.1,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99369596373003,
+   "vout_pp": 0.23409739734674417,
+   "i1_rms": 2.1294286543079948,
+   "i2_rms": 2.129415211573818,
+   "i1_peak": 2.4761934332310886,
+   "i2_peak": 2.4768069978200913,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.33059199306928,
+   "vout_max": 200.29276413283927,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00130917739637,
+   "vout_end_pp": 0.13907705710346363,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_inductor",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.107 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.843343504035147e-08,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.0135948533295505,
+   "i2_time_above_2ph_bound_us": 29866.999999822627,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.291001872475171,
+   "i2_end_peak": 4.630203719960946,
+   "i2_end_pp": 0.6788874101367526
+  },
+  "corr_ph1": {
+   "pre_min": 0.9948565777335844,
+   "post_min": -0.08314799793456842,
+   "post_first5": [
+    0.937,
+    -0.083,
+    -0.083,
+    0.107
+   ],
+   "beta_pre_range": [
+    0.915,
+    1.065
+   ],
+   "beta_post_range": [
+    -0.006,
+    1.177
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9941588669887766,
+   "post_min": 0.9698445890995758,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.99
+   ],
+   "beta_pre_range": [
+    0.935,
+    1.063
+   ],
+   "beta_post_range": [
+    0.914,
+    1.081
+   ],
+   "survivor_reconf_1ms_min": 0.9698445890995758,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9906527307854212,
+   "survivor_reconf_1ms_beta_range": [
+    0.918,
+    1.079
+   ]
+  }
+ },
+ {
+  "case": "open_inductor_c150u_noisy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_inductor",
+    "detail": "template r=0.107 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0622 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 240.8,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99318788687134,
+   "vout_pp": 0.22984950617046707,
+   "i1_rms": 2.1275826770890105,
+   "i2_rms": 2.127573198536537,
+   "i1_peak": 2.4742651271211002,
+   "i2_peak": 2.477153843910429,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.33223517078648,
+   "vout_max": 200.29451146822916,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00132874676683,
+   "vout_end_pp": 0.13904457378936286,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_inductor",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.107 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.843343504035147e-08,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.009507376588118,
+   "i2_time_above_2ph_bound_us": 29866.999999822627,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.282808054225014,
+   "i2_end_peak": 4.622648237175753,
+   "i2_end_pp": 0.680478763246839
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944803095762084,
+   "post_min": -0.08357372804875265,
+   "post_first5": [
+    0.938,
+    -0.084,
+    -0.083,
+    0.107
+   ],
+   "beta_pre_range": [
+    0.914,
+    1.067
+   ],
+   "beta_post_range": [
+    -0.006,
+    1.172
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9932640323951019,
+   "post_min": 0.9697224357590937,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.979
+   ],
+   "beta_pre_range": [
+    0.935,
+    1.062
+   ],
+   "beta_post_range": [
+    0.913,
+    1.081
+   ],
+   "survivor_reconf_1ms_min": 0.9697224357590937,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.993115624046139,
+   "survivor_reconf_1ms_beta_range": [
+    0.916,
+    1.069
+   ]
+  }
+ },
+ {
+  "case": "open_inductor_final",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_inductor",
+    "detail": "template r=0.106 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0622 ms, SSD opens at 50.0632 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 283.5,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00127352590428,
+   "vout_pp": 0.3807532141166803,
+   "i1_rms": 2.1328170536260838,
+   "i2_rms": 2.1328256152703715,
+   "i1_peak": 2.470664538609668,
+   "i2_peak": 2.4712014016444073,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.4850134505012,
+   "vout_max": 200.70015982623573,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.0013355225462,
+   "vout_end_pp": 1.09408163654615,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_inductor",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.106 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.843414558308723e-08,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.615056788802519,
+   "i2_time_above_2ph_bound_us": 29868.999999822612,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.291388873069771,
+   "i2_end_peak": 4.632200485185933,
+   "i2_end_pp": 0.6848287273129472
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944849087533391,
+   "post_min": -0.08346843190315667,
+   "post_first5": [
+    0.937,
+    -0.083,
+    -0.083,
+    0.106
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.061
+   ],
+   "beta_post_range": [
+    -0.006,
+    1.17
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9931579133457752,
+   "post_min": 0.9694249394230866,
+   "post_first5": [
+    0.995,
+    0.996,
+    0.997,
+    0.997,
+    0.979
+   ],
+   "beta_pre_range": [
+    0.938,
+    1.066
+   ],
+   "beta_post_range": [
+    0.884,
+    1.097
+   ],
+   "survivor_reconf_1ms_min": 0.9694249394230866,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9922570525835561,
+   "survivor_reconf_1ms_beta_range": [
+    0.884,
+    1.096
+   ]
+  }
+ },
+ {
+  "case": "open_inductor_halfload",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_inductor",
+    "detail": "template r=0.104 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0622 ms, SSD opens at 50.0632 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 225.9,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00077315718994,
+   "vout_pp": 0.1981006228074591,
+   "i1_rms": 1.0765281797829607,
+   "i2_rms": 1.076504794235819,
+   "i1_peak": 1.4070409555735353,
+   "i2_peak": 1.4064238132704077,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 197.2202310032047,
+   "vout_max": 200.51908047174925,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00067257724186,
+   "vout_end_pp": 0.5473739155913222,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_inductor",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.104 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.845261969421699e-08,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 3.428257069579388,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.1308841216206815,
+   "i2_end_peak": 2.4699356518738114,
+   "i2_end_pp": 0.6883020201371437
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944136989139608,
+   "post_min": -0.08347295507748448,
+   "post_first5": [
+    0.986,
+    -0.083,
+    -0.083,
+    0.104
+   ],
+   "beta_pre_range": [
+    0.92,
+    1.068
+   ],
+   "beta_post_range": [
+    -0.006,
+    1.07
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9941424545600563,
+   "post_min": 0.9681112616881495,
+   "post_first5": [
+    0.996,
+    0.996,
+    0.997,
+    0.997,
+    0.98
+   ],
+   "beta_pre_range": [
+    0.941,
+    1.059
+   ],
+   "beta_post_range": [
+    0.914,
+    1.097
+   ],
+   "survivor_reconf_1ms_min": 0.9681112616881495,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9931194071658769,
+   "survivor_reconf_1ms_beta_range": [
+    0.953,
+    1.097
+   ]
+  }
+ },
+ {
+  "case": "open_inductor_noisy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "FAULT_open_inductor",
+    "detail": "template r=0.104 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0622 ms"
+   },
+   {
+    "t": 0.050062199999811215,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 238.4,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.0013987618771,
+   "vout_pp": 0.3805394189294873,
+   "i1_rms": 2.130861843150094,
+   "i2_rms": 2.1308677583735207,
+   "i1_peak": 2.4686067868735506,
+   "i2_peak": 2.4706271341578656,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.50563615058843,
+   "vout_max": 200.7506171909033,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00117244544234,
+   "vout_end_pp": 1.0905651332734863,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "open_inductor",
+     "latency_us": 62.19999981121188,
+     "detail": "template r=0.104 beta=0.01 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.843414558308723e-08,
+   "i1_time_above_2ph_bound_us": 0.0,
+   "i2_peak": 5.6153666144766134,
+   "i2_time_above_2ph_bound_us": 29868.999999822612,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.283461210745583,
+   "i2_end_peak": 4.625250820087956,
+   "i2_end_pp": 0.6872727462827299
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944159565048785,
+   "post_min": -0.08347353435777674,
+   "post_first5": [
+    0.938,
+    -0.083,
+    -0.083,
+    0.104
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.064
+   ],
+   "beta_post_range": [
+    -0.006,
+    1.172
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9936935628890085,
+   "post_min": 0.9681623144498501,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.979
+   ],
+   "beta_pre_range": [
+    0.94,
+    1.076
+   ],
+   "beta_post_range": [
+    0.902,
+    1.092
+   ],
+   "survivor_reconf_1ms_min": 0.9681623144498501,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.992465246717617,
+   "survivor_reconf_1ms_beta_range": [
+    0.902,
+    1.092
+   ]
+  }
+ },
+ {
+  "case": "shorted_switch",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.05006019999981123,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.999 < 0.8 for 3 windows"
+   },
+   {
+    "t": 0.05006019999981123,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0602 ms"
+   },
+   {
+    "t": 0.05006019999981123,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 417.8,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00109878690094,
+   "vout_pp": 0.362830966400594,
+   "i1_rms": 2.130936315118323,
+   "i2_rms": 2.130928224555903,
+   "i1_peak": 2.4657486137641627,
+   "i2_peak": 2.4648583884825825,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.49332849500001,
+   "vout_max": 200.7460622761613,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00101120931637,
+   "vout_end_pp": 1.071987643730381,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 60.19999981122376,
+     "detail": "template r=-0.999 < 0.8 for 3 windows"
+    }
+   ],
+   "i1_peak": 4.599591137884573,
+   "i1_time_above_2ph_bound_us": 30.9999999998159,
+   "i2_peak": 5.614089776217668,
+   "i2_time_above_2ph_bound_us": 29868.999999822612,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.284262803018901,
+   "i2_end_peak": 4.620652783643209,
+   "i2_end_pp": 0.6761663026317422
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996130376593,
+   "post_min": -0.9990725933464796,
+   "post_first5": [
+    1.0,
+    -0.999,
+    -0.999,
+    -0.999
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996492055534,
+   "post_min": 0.3574912460875388,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    0.997,
+    0.363
+   ],
+   "survivor_reconf_1ms_min": 0.3574912460875388,
+   "survivor_reconf_1ms_windows_below_0.8": 5,
+   "survivor_after_1ms_min": 0.9993825845936721
+  }
+ },
+ {
+  "case": "shorted_switch_baseline",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.05006179999981122,
+    "phase": 1,
+    "event": "WOULD_DETECT_shorted_switch",
+    "detail": "template r=-0.982 beta=-0.36 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows (baseline: no isolation)"
+   }
+  ],
+  "wall_s": 310.3,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00127352590428,
+   "vout_pp": 0.3807532141166803,
+   "i1_rms": 2.1328170536260838,
+   "i2_rms": 2.1328256152703715,
+   "i1_peak": 2.470664538609668,
+   "i2_peak": 2.4712014016444073,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 157.180169354646,
+   "vout_max": 200.17828391088628,
+   "recovery_time_ms": 29.999800000240565,
+   "recovered_within_1ms": false,
+   "vout_end_mean": 157.62476571420765,
+   "vout_end_pp": 0.9049954365977158,
+   "no_shutdown": false,
+   "detection": [],
+   "i1_peak": 278.70285453015777,
+   "i1_time_above_2ph_bound_us": 29961.999999822063,
+   "i2_peak": 3.5116136658729147,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 3.005906935189747,
+   "i2_end_peak": 3.307210589349552,
+   "i2_end_pp": 0.5960376359659847
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944849087533391,
+   "post_min": -0.9899272297887486,
+   "post_first5": [
+    0.997,
+    -0.973,
+    -0.978,
+    -0.982,
+    -0.99
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.061
+   ],
+   "beta_post_range": [
+    -0.392,
+    0.995
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9931579133457752,
+   "post_min": 0.9888131437878949,
+   "post_first5": [
+    0.995,
+    0.996,
+    0.998,
+    0.996,
+    0.997
+   ],
+   "beta_pre_range": [
+    0.938,
+    1.066
+   ],
+   "beta_post_range": [
+    0.934,
+    1.122
+   ]
+  }
+ },
+ {
+  "case": "shorted_switch_c150u",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.05005999999981123,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.999 < 0.8 for 3 windows"
+   },
+   {
+    "t": 0.05005999999981123,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0600 ms"
+   },
+   {
+    "t": 0.05005999999981123,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 372.7,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99316782505048,
+   "vout_pp": 0.229555497378783,
+   "i1_rms": 2.127586552874968,
+   "i2_rms": 2.1275554414974294,
+   "i1_peak": 2.4710145755804547,
+   "i2_peak": 2.4722449194712226,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.32896224926415,
+   "vout_max": 200.29367277786582,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.0016312485884,
+   "vout_end_pp": 0.13797837215886943,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 59.999999811224946,
+     "detail": "template r=-0.999 < 0.8 for 3 windows"
+    }
+   ],
+   "i1_peak": 4.5945106850147965,
+   "i1_time_above_2ph_bound_us": 30.9999999998159,
+   "i2_peak": 5.014951790016653,
+   "i2_time_above_2ph_bound_us": 29866.999999822627,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.284305362829856,
+   "i2_end_peak": 4.619647445597508,
+   "i2_end_pp": 0.6709440030554958
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996284071275,
+   "post_min": -0.9990724591078135,
+   "post_first5": [
+    1.0,
+    -0.999,
+    -0.999,
+    -0.999
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996350410802,
+   "post_min": 0.3778645358932149,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.378
+   ],
+   "survivor_reconf_1ms_min": 0.3778645358932149,
+   "survivor_reconf_1ms_windows_below_0.8": 4,
+   "survivor_after_1ms_min": 0.9993699754229909
+  }
+ },
+ {
+  "case": "shorted_switch_c150u_final",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.983 beta=-0.35 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0616 ms, SSD opens at 50.0626 ms"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 277.3,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99369596373003,
+   "vout_pp": 0.23409739734674417,
+   "i1_rms": 2.1294286543079948,
+   "i2_rms": 2.129415211573818,
+   "i1_peak": 2.4761934332310886,
+   "i2_peak": 2.4768069978200913,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.33090957935735,
+   "vout_max": 200.29262142939976,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.0017750387696,
+   "vout_end_pp": 0.138706658550376,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 61.59999981121545,
+     "detail": "template r=-0.983 beta=-0.35 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.733686136194137,
+   "i1_time_above_2ph_bound_us": 34.999999999792145,
+   "i2_peak": 5.0120378298956325,
+   "i2_time_above_2ph_bound_us": 29866.999999822627,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.291269435341689,
+   "i2_end_peak": 4.630106578420623,
+   "i2_end_pp": 0.679457687661511
+  },
+  "corr_ph1": {
+   "pre_min": 0.9948565777335844,
+   "post_min": -0.9827509172334524,
+   "post_first5": [
+    0.996,
+    -0.973,
+    -0.978,
+    -0.983
+   ],
+   "beta_pre_range": [
+    0.915,
+    1.065
+   ],
+   "beta_post_range": [
+    -0.354,
+    1.002
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9941588669887766,
+   "post_min": 0.9698445890995758,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.98
+   ],
+   "beta_pre_range": [
+    0.935,
+    1.063
+   ],
+   "beta_post_range": [
+    0.918,
+    1.109
+   ],
+   "survivor_reconf_1ms_min": 0.9698445890995758,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9898611965434833,
+   "survivor_reconf_1ms_beta_range": [
+    0.918,
+    1.109
+   ]
+  }
+ },
+ {
+  "case": "shorted_switch_c150u_noisy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.983 beta=-0.35 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0616 ms"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 238.9,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99318788687134,
+   "vout_pp": 0.22984950617046707,
+   "i1_rms": 2.1275826770890105,
+   "i2_rms": 2.127573198536537,
+   "i1_peak": 2.4742651271211002,
+   "i2_peak": 2.477153843910429,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 199.33243443136033,
+   "vout_max": 200.29326519656414,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00174149373657,
+   "vout_end_pp": 0.13887462923892713,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 61.59999981121545,
+     "detail": "template r=-0.983 beta=-0.35 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.688169540045806,
+   "i1_time_above_2ph_bound_us": 32.99999999980402,
+   "i2_peak": 5.00681264804399,
+   "i2_time_above_2ph_bound_us": 29866.999999822627,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.283593367548,
+   "i2_end_peak": 4.624246028052426,
+   "i2_end_pp": 0.6816163763836869
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944803095762084,
+   "post_min": -0.9826938116243652,
+   "post_first5": [
+    0.996,
+    -0.977,
+    -0.98,
+    -0.983
+   ],
+   "beta_pre_range": [
+    0.914,
+    1.067
+   ],
+   "beta_post_range": [
+    -0.354,
+    0.997
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9932640323951019,
+   "post_min": 0.9730070459751469,
+   "post_first5": [
+    0.995,
+    0.997,
+    0.997,
+    0.997,
+    0.978
+   ],
+   "beta_pre_range": [
+    0.935,
+    1.062
+   ],
+   "beta_post_range": [
+    0.908,
+    1.082
+   ],
+   "survivor_reconf_1ms_min": 0.9730070459751469,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9926802216291737,
+   "survivor_reconf_1ms_beta_range": [
+    0.908,
+    1.07
+   ]
+  }
+ },
+ {
+  "case": "shorted_switch_final",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.05006179999981122,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.982 beta=-0.36 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.05006179999981122,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0618 ms, SSD opens at 50.0628 ms"
+   },
+   {
+    "t": 0.05006179999981122,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 277.6,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00127352590428,
+   "vout_pp": 0.3807532141166803,
+   "i1_rms": 2.1328170536260838,
+   "i2_rms": 2.1328256152703715,
+   "i1_peak": 2.470664538609668,
+   "i2_peak": 2.4712014016444073,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.49015804811526,
+   "vout_max": 200.70988075069286,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00122386803395,
+   "vout_end_pp": 1.0912526236985514,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 61.799999811214256,
+     "detail": "template r=-0.982 beta=-0.36 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.734039565320813,
+   "i1_time_above_2ph_bound_us": 34.999999999792145,
+   "i2_peak": 5.613901928386866,
+   "i2_time_above_2ph_bound_us": 29868.999999822612,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.291595117889739,
+   "i2_end_peak": 4.631662716300866,
+   "i2_end_pp": 0.6836439325724086
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944849087533391,
+   "post_min": -0.9824070751326152,
+   "post_first5": [
+    0.997,
+    -0.973,
+    -0.978,
+    -0.982
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.061
+   ],
+   "beta_post_range": [
+    -0.355,
+    0.995
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9931579133457752,
+   "post_min": 0.9696729758488195,
+   "post_first5": [
+    0.995,
+    0.996,
+    0.998,
+    0.996,
+    0.991
+   ],
+   "beta_pre_range": [
+    0.938,
+    1.066
+   ],
+   "beta_post_range": [
+    0.912,
+    1.09
+   ],
+   "survivor_reconf_1ms_min": 0.9696729758488195,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9920658277094978,
+   "survivor_reconf_1ms_beta_range": [
+    0.912,
+    1.09
+   ]
+  }
+ },
+ {
+  "case": "shorted_switch_halfload",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.985 beta=-0.36 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0616 ms, SSD opens at 50.0626 ms"
+   },
+   {
+    "t": 0.05006159999981122,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 216.8,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00077315718994,
+   "vout_pp": 0.1981006228074591,
+   "i1_rms": 1.0765281797829607,
+   "i2_rms": 1.076504794235819,
+   "i1_peak": 1.4070409555735353,
+   "i2_peak": 1.4064238132704077,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 197.2190826538737,
+   "vout_max": 200.52002466530254,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00070556517488,
+   "vout_end_pp": 0.5492296407662707,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 61.59999981121545,
+     "detail": "template r=-0.985 beta=-0.36 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 3.6757611472417295,
+   "i1_time_above_2ph_bound_us": 1.9999999999881224,
+   "i2_peak": 3.4280679794882474,
+   "i2_time_above_2ph_bound_us": 0.0,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 2.131170408085825,
+   "i2_end_peak": 2.4699781129825737,
+   "i2_end_pp": 0.6894477632812368
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944136989139608,
+   "post_min": -0.9850778679170112,
+   "post_first5": [
+    0.996,
+    -0.97,
+    -0.976,
+    -0.985
+   ],
+   "beta_pre_range": [
+    0.92,
+    1.068
+   ],
+   "beta_post_range": [
+    -0.362,
+    1.002
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9941424545600563,
+   "post_min": 0.9681112616881495,
+   "post_first5": [
+    0.996,
+    0.996,
+    0.997,
+    0.997,
+    0.979
+   ],
+   "beta_pre_range": [
+    0.941,
+    1.059
+   ],
+   "beta_post_range": [
+    0.91,
+    1.097
+   ],
+   "survivor_reconf_1ms_min": 0.9681112616881495,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9921528080903451,
+   "survivor_reconf_1ms_beta_range": [
+    0.953,
+    1.097
+   ]
+  }
+ },
+ {
+  "case": "shorted_switch_noisy",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "249 cycles averaged"
+   },
+   {
+    "t": 0.05006179999981122,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.984 beta=-0.36 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.05006179999981122,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 50.0618 ms"
+   },
+   {
+    "t": 0.05006179999981122,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 237.4,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.0013987618771,
+   "vout_pp": 0.3805394189294873,
+   "i1_rms": 2.130861843150094,
+   "i2_rms": 2.1308677583735207,
+   "i1_peak": 2.4686067868735506,
+   "i2_peak": 2.4706271341578656,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.49714467703615,
+   "vout_max": 200.74574377197249,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.00123912588322,
+   "vout_end_pp": 1.0849806440721181,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 61.799999811214256,
+     "detail": "template r=-0.984 beta=-0.36 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.689910389375029,
+   "i1_time_above_2ph_bound_us": 32.99999999980402,
+   "i2_peak": 5.614092025789574,
+   "i2_time_above_2ph_bound_us": 29868.999999822612,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.283646232668294,
+   "i2_end_peak": 4.625397918037777,
+   "i2_end_pp": 0.6846748276977621
+  },
+  "corr_ph1": {
+   "pre_min": 0.9944159565048785,
+   "post_min": -0.9844084251685679,
+   "post_first5": [
+    0.996,
+    -0.973,
+    -0.976,
+    -0.984
+   ],
+   "beta_pre_range": [
+    0.921,
+    1.064
+   ],
+   "beta_post_range": [
+    -0.363,
+    0.997
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9936935628890085,
+   "post_min": 0.9681623144498501,
+   "post_first5": [
+    0.996,
+    0.996,
+    0.997,
+    0.996,
+    0.979
+   ],
+   "beta_pre_range": [
+    0.94,
+    1.076
+   ],
+   "beta_post_range": [
+    0.909,
+    1.096
+   ],
+   "survivor_reconf_1ms_min": 0.9681623144498501,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.992465246717617,
+   "survivor_reconf_1ms_beta_range": [
+    0.913,
+    1.096
+   ]
+  }
+ },
+ {
+  "case": "shorted_switch_relay5ms",
+  "events": [
+   {
+    "t": 0.04500259999984126,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.0450125999998412,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.05006019999981123,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.999 < 0.8 for 3 windows"
+   },
+   {
+    "t": 0.05006019999981123,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0602 ms"
+   },
+   {
+    "t": 0.05006019999981123,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 414.7,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 200.00109878690094,
+   "vout_pp": 0.362830966400594,
+   "i1_rms": 2.130936315118323,
+   "i2_rms": 2.130928224555903,
+   "i1_peak": 2.4657486137641627,
+   "i2_peak": 2.4648583884825825,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.44996783529268,
+   "vout_max": 201.534430230579,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 200.0011368374493,
+   "vout_end_pp": 1.0789477057387273,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 60.19999981122376,
+     "detail": "template r=-0.999 < 0.8 for 3 windows"
+    }
+   ],
+   "i1_peak": 170.32305435044677,
+   "i1_time_above_2ph_bound_us": 6058.999999964017,
+   "i2_peak": 5.619510762912938,
+   "i2_time_above_2ph_bound_us": 29867.99999982262,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 4.2841240490085895,
+   "i2_end_peak": 4.622189816804934,
+   "i2_end_pp": 0.6785015393290905
+  },
+  "corr_ph1": {
+   "pre_min": 0.9999996130376593,
+   "post_min": -0.9990725933464796,
+   "post_first5": [
+    1.0,
+    -0.999,
+    -0.999,
+    -0.999
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9999996492055534,
+   "post_min": 0.35925752469161343,
+   "post_first5": [
+    1.0,
+    1.0,
+    1.0,
+    0.997,
+    0.367
+   ],
+   "survivor_reconf_1ms_min": 0.35925752469161343,
+   "survivor_reconf_1ms_windows_below_0.8": 5,
+   "survivor_after_1ms_min": 0.9973847903334734
+  }
+ },
+ {
+  "case": "shorted_switch_vin53",
+  "events": [
+   {
+    "t": 0.045002199999841265,
+    "phase": 1,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.045012199999841206,
+    "phase": 2,
+    "event": "template_learned",
+    "detail": "250 cycles averaged"
+   },
+   {
+    "t": 0.05006099999981122,
+    "phase": 1,
+    "event": "FAULT_shorted_switch",
+    "detail": "template r=-0.987 beta=-0.37 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+   },
+   {
+    "t": 0.05006099999981122,
+    "phase": 1,
+    "event": "gate_inhibit+relay_open_cmd",
+    "detail": "relay contact opens at 55.0610 ms, SSD opens at 50.0620 ms"
+   },
+   {
+    "t": 0.05006099999981122,
+    "phase": 0,
+    "event": "RECONFIGURED",
+    "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+   }
+  ],
+  "wall_s": 203.6,
+  "spice_errors": [],
+  "pre_fault": {
+   "vout_mean": 199.99870019032568,
+   "vout_pp": 0.38720375852020084,
+   "i1_rms": 1.9399620368564288,
+   "i2_rms": 1.939941529019588,
+   "i1_peak": 2.318849462252359,
+   "i2_peak": 2.320421052962729,
+   "tableIV_rms": 2.08112,
+   "tableIV_peak": 2.39127
+  },
+  "post_fault": {
+   "vout_min": 192.75475838397733,
+   "vout_max": 200.8796073207848,
+   "recovery_time_ms": 0.0,
+   "recovered_within_1ms": true,
+   "vout_end_mean": 199.9987536062545,
+   "vout_end_pp": 1.084396416024191,
+   "no_shutdown": true,
+   "detection": [
+    {
+     "phase": 1,
+     "type": "shorted_switch",
+     "latency_us": 60.999999811219006,
+     "detail": "template r=-0.987 beta=-0.37 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+    }
+   ],
+   "i1_peak": 4.764112122165187,
+   "i1_time_above_2ph_bound_us": 32.99999999980402,
+   "i2_peak": 5.7763580140374415,
+   "i2_time_above_2ph_bound_us": 306.9999999981768,
+   "i2_time_above_1ph_bound_us": 0.0,
+   "i2_end_rms": 3.8893446221368695,
+   "i2_end_peak": 4.2745505118311655,
+   "i2_end_pp": 0.7549586694651111
+  },
+  "corr_ph1": {
+   "pre_min": 0.9953629172913889,
+   "post_min": -0.9869579474425969,
+   "post_first5": [
+    0.997,
+    -0.977,
+    -0.983,
+    -0.987
+   ],
+   "beta_pre_range": [
+    0.933,
+    1.059
+   ],
+   "beta_post_range": [
+    -0.368,
+    0.998
+   ]
+  },
+  "corr_ph2": {
+   "pre_min": 0.9950109893082373,
+   "post_min": 0.9564984790434867,
+   "post_first5": [
+    0.996,
+    0.997,
+    0.997,
+    0.996,
+    0.982
+   ],
+   "beta_pre_range": [
+    0.942,
+    1.057
+   ],
+   "beta_post_range": [
+    0.896,
+    1.073
+   ],
+   "survivor_reconf_1ms_min": 0.9564984790434867,
+   "survivor_reconf_1ms_windows_below_0.8": 0,
+   "survivor_after_1ms_min": 0.9938597339447228,
+   "survivor_reconf_1ms_beta_range": [
+    0.896,
+    1.069
+   ]
+  }
+ }
+]

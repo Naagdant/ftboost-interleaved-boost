@@ -1,0 +1,24 @@
+{
+ "case": "healthy",
+ "tag": "c150u",
+ "relay_release_delay_s": 0.0,
+ "cout_F": 0.00015,
+ "t_fault_s": null,
+ "tstop_s": 0.08,
+ "wall_s": 417.5,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.04500259999984126,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "250 cycles averaged"
+  },
+  {
+   "t": 0.0450125999998412,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "250 cycles averaged"
+  }
+ ]
+}

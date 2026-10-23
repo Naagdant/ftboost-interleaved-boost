@@ -1,0 +1,42 @@
+{
+ "case": "open_inductor",
+ "tag": "",
+ "relay_release_delay_s": 0.0,
+ "cout_F": 1.4e-05,
+ "t_fault_s": 0.05,
+ "tstop_s": 0.08,
+ "wall_s": 417.3,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.04500259999984126,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "250 cycles averaged"
+  },
+  {
+   "t": 0.0450125999998412,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "250 cycles averaged"
+  },
+  {
+   "t": 0.05010319999981097,
+   "phase": 1,
+   "event": "FAULT_open_inductor",
+   "detail": "i<0.208 A for 100 us"
+  },
+  {
+   "t": 0.05010319999981097,
+   "phase": 1,
+   "event": "gate_inhibit+relay_open_cmd",
+   "detail": "relay contact opens at 50.1032 ms"
+  },
+  {
+   "t": 0.05010319999981097,
+   "phase": 0,
+   "event": "RECONFIGURED",
+   "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+  }
+ ]
+}

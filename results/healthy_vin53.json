@@ -1,0 +1,35 @@
+{
+ "case": "healthy",
+ "tag": "vin53",
+ "relay_release_delay_s": 0.005,
+ "cout_F": 1.4e-05,
+ "noise_scale": 1.0,
+ "blank_s": 0.0,
+ "adaptive_window": true,
+ "seed": 1,
+ "baseline": false,
+ "ssd": true,
+ "ssd_delay_s": 1e-06,
+ "overrides": {
+  "VIN1": "DC 52.8"
+ },
+ "loadstep": false,
+ "t_fault_s": null,
+ "tstop_s": 0.08,
+ "wall_s": 344.4,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.045002199999841265,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "250 cycles averaged"
+  },
+  {
+   "t": 0.045012199999841206,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "250 cycles averaged"
+  }
+ ]
+}

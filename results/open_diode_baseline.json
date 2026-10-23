@@ -1,0 +1,39 @@
+{
+ "case": "open_diode",
+ "tag": "baseline",
+ "relay_release_delay_s": 0.0,
+ "cout_F": 1.4e-05,
+ "noise_scale": 1.0,
+ "blank_s": 0.0,
+ "adaptive_window": true,
+ "seed": 1,
+ "baseline": true,
+ "ssd": true,
+ "ssd_delay_s": 1e-06,
+ "overrides": {},
+ "loadstep": false,
+ "t_fault_s": 0.05,
+ "tstop_s": 0.08,
+ "wall_s": 347.5,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.04500259999984126,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.0450125999998412,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.050062199999811215,
+   "phase": 1,
+   "event": "WOULD_DETECT_open_diode",
+   "detail": "template r=0.992 beta=3.67 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows (baseline: no isolation)"
+  }
+ ]
+}

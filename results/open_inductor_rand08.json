@@ -1,0 +1,51 @@
+{
+ "case": "open_inductor",
+ "tag": "rand08",
+ "relay_release_delay_s": 0.005,
+ "cout_F": 1.4e-05,
+ "noise_scale": 1.0,
+ "blank_s": 0.0,
+ "adaptive_window": true,
+ "seed": 108,
+ "baseline": false,
+ "ssd": true,
+ "ssd_delay_s": 1e-06,
+ "overrides": {},
+ "loadstep": false,
+ "t_fault_s": 0.052007944,
+ "tstop_s": 0.060008,
+ "wall_s": 417.6,
+ "spice_errors": [],
+ "events": [
+  {
+   "t": 0.04500259999984126,
+   "phase": 1,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.0450125999998412,
+   "phase": 2,
+   "event": "template_learned",
+   "detail": "249 cycles averaged"
+  },
+  {
+   "t": 0.05206219999979934,
+   "phase": 1,
+   "event": "FAULT_open_inductor",
+   "detail": "template r=0.456 beta=0.14 outside (r>=0.8, 0.5<=beta<=2.0) for 3 windows"
+  },
+  {
+   "t": 0.05206219999979934,
+   "phase": 1,
+   "event": "gate_inhibit+relay_open_cmd",
+   "detail": "relay contact opens at 57.0622 ms, SSD opens at 52.0632 ms"
+  },
+  {
+   "t": 0.05206219999979934,
+   "phase": 0,
+   "event": "RECONFIGURED",
+   "detail": "degraded mode: 1 active phase(s), I_trip=6.76 A, I_lim=5.0 A"
+  }
+ ]
+}

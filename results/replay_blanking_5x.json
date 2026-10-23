@@ -1,0 +1,1214 @@
+[
+ {
+  "tag": "noisy",
+  "noise": 5.0,
+  "th": 0.8,
+  "blank_ms": 0.0,
+  "adaptive": true,
+  "seeds": 5,
+  "cases": {
+   "healthy": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "r_min": {
+     "healthy": 0.7881
+    },
+    "r_p001": {
+     "healthy": 0.8413
+    },
+    "beta_range": {
+     "healthy": [
+      0.585,
+      1.514
+     ]
+    },
+    "detect_class": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "p_window_below_th": 0.00020623487165945516,
+    "false_trips_per_hour_est": 0.003157830412545933
+   },
+   "open_inductor": {
+    "false_trips": 3,
+    "false_trip_examples": [
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.8765175761543398,
+      "category": "survivor_reconf_1ms"
+     },
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.43793947349572465,
+      "category": "survivor_reconf_1ms"
+     }
+    ],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": -0.6123,
+     "survivor_reconf_1ms": 0.0714,
+     "survivor_steady": 0.8031
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": -0.6114,
+     "survivor_reconf_1ms": 0.0864,
+     "survivor_steady": 0.8405
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      -0.528,
+      1.457
+     ],
+     "survivor_reconf_1ms": [
+      0.063,
+      2.047
+     ],
+     "survivor_steady": [
+      0.584,
+      1.498
+     ]
+    },
+    "detect_class": [
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0035079276414068934
+   },
+   "shorted_switch": {
+    "false_trips": 3,
+    "false_trip_examples": [
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.8657250887990339,
+      "category": "survivor_reconf_1ms"
+     },
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.43793947349572465,
+      "category": "survivor_reconf_1ms"
+     }
+    ],
+    "detect_latency_us": [
+     61.8,
+     61.8,
+     61.8,
+     61.8,
+     61.8
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": -0.9293,
+     "survivor_reconf_1ms": 0.0714,
+     "survivor_steady": 0.8213
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": -0.9279,
+     "survivor_reconf_1ms": 0.1009,
+     "survivor_steady": 0.8406
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      -0.475,
+      1.282
+     ],
+     "survivor_reconf_1ms": [
+      0.063,
+      2.005
+     ],
+     "survivor_steady": [
+      0.58,
+      1.497
+     ]
+    },
+    "detect_class": [
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004148905050904719
+   },
+   "open_diode": {
+    "false_trips": 2,
+    "false_trip_examples": [
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.4223293861782844,
+      "category": "survivor_reconf_1ms"
+     },
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.4164557869012434,
+      "category": "survivor_reconf_1ms"
+     }
+    ],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": 0.4583,
+     "survivor_reconf_1ms": 0.0616,
+     "survivor_steady": 0.8186
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": 0.4612,
+     "survivor_reconf_1ms": 0.0878,
+     "survivor_steady": 0.8386
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      0.364,
+      4.244
+     ],
+     "survivor_reconf_1ms": [
+      0.058,
+      1.995
+     ],
+     "survivor_steady": [
+      0.583,
+      1.504
+     ]
+    },
+    "detect_class": [
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0044890700592854545
+   }
+  }
+ },
+ {
+  "tag": "noisy",
+  "noise": 5.0,
+  "th": 0.8,
+  "blank_ms": 0.3,
+  "adaptive": true,
+  "seeds": 5,
+  "cases": {
+   "healthy": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "r_min": {
+     "healthy": 0.7881
+    },
+    "r_p001": {
+     "healthy": 0.8413
+    },
+    "beta_range": {
+     "healthy": [
+      0.585,
+      1.514
+     ]
+    },
+    "detect_class": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "p_window_below_th": 0.00020623487165945516,
+    "false_trips_per_hour_est": 0.003157830412545933
+   },
+   "open_inductor": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": -0.6123,
+     "survivor_reconf_1ms": 0.0714,
+     "survivor_steady": 0.8031
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": -0.6114,
+     "survivor_reconf_1ms": 0.0864,
+     "survivor_steady": 0.8405
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      -0.528,
+      1.457
+     ],
+     "survivor_reconf_1ms": [
+      0.063,
+      2.047
+     ],
+     "survivor_steady": [
+      0.584,
+      1.498
+     ]
+    },
+    "detect_class": [
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0035079276414068934
+   },
+   "shorted_switch": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     61.8,
+     61.8,
+     61.8,
+     61.8,
+     61.8
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": -0.9293,
+     "survivor_reconf_1ms": 0.0714,
+     "survivor_steady": 0.8213
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": -0.9279,
+     "survivor_reconf_1ms": 0.1009,
+     "survivor_steady": 0.8406
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      -0.475,
+      1.282
+     ],
+     "survivor_reconf_1ms": [
+      0.063,
+      2.005
+     ],
+     "survivor_steady": [
+      0.58,
+      1.497
+     ]
+    },
+    "detect_class": [
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004148905050904719
+   },
+   "open_diode": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": 0.4583,
+     "survivor_reconf_1ms": 0.0616,
+     "survivor_steady": 0.8186
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": 0.4612,
+     "survivor_reconf_1ms": 0.0878,
+     "survivor_steady": 0.8386
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      0.364,
+      4.244
+     ],
+     "survivor_reconf_1ms": [
+      0.058,
+      1.995
+     ],
+     "survivor_steady": [
+      0.583,
+      1.504
+     ]
+    },
+    "detect_class": [
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0044890700592854545
+   }
+  }
+ },
+ {
+  "tag": "noisy",
+  "noise": 5.0,
+  "th": 0.8,
+  "blank_ms": 1.0,
+  "adaptive": true,
+  "seeds": 5,
+  "cases": {
+   "healthy": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "r_min": {
+     "healthy": 0.7881
+    },
+    "r_p001": {
+     "healthy": 0.8413
+    },
+    "beta_range": {
+     "healthy": [
+      0.585,
+      1.514
+     ]
+    },
+    "detect_class": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "p_window_below_th": 0.00020623487165945516,
+    "false_trips_per_hour_est": 0.003157830412545933
+   },
+   "open_inductor": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": -0.6123,
+     "survivor_reconf_1ms": 0.0714,
+     "survivor_steady": 0.8031
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": -0.6114,
+     "survivor_reconf_1ms": 0.0864,
+     "survivor_steady": 0.8405
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      -0.528,
+      1.457
+     ],
+     "survivor_reconf_1ms": [
+      0.063,
+      2.047
+     ],
+     "survivor_steady": [
+      0.584,
+      1.498
+     ]
+    },
+    "detect_class": [
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0035079276414068934
+   },
+   "shorted_switch": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     61.8,
+     61.8,
+     61.8,
+     61.8,
+     61.8
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": -0.9293,
+     "survivor_reconf_1ms": 0.0714,
+     "survivor_steady": 0.8213
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": -0.9279,
+     "survivor_reconf_1ms": 0.1009,
+     "survivor_steady": 0.8406
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      -0.475,
+      1.282
+     ],
+     "survivor_reconf_1ms": [
+      0.063,
+      2.005
+     ],
+     "survivor_steady": [
+      0.58,
+      1.497
+     ]
+    },
+    "detect_class": [
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004148905050904719
+   },
+   "open_diode": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8245,
+     "faulted": 0.4583,
+     "survivor_reconf_1ms": 0.0616,
+     "survivor_steady": 0.8186
+    },
+    "r_p001": {
+     "healthy": 0.8474,
+     "faulted": 0.4612,
+     "survivor_reconf_1ms": 0.0878,
+     "survivor_steady": 0.8386
+    },
+    "beta_range": {
+     "healthy": [
+      0.627,
+      1.385
+     ],
+     "faulted": [
+      0.364,
+      4.244
+     ],
+     "survivor_reconf_1ms": [
+      0.058,
+      1.995
+     ],
+     "survivor_steady": [
+      0.583,
+      1.504
+     ]
+    },
+    "detect_class": [
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0044890700592854545
+   }
+  }
+ },
+ {
+  "tag": "c150u_noisy",
+  "noise": 5.0,
+  "th": 0.8,
+  "blank_ms": 0.0,
+  "adaptive": true,
+  "seeds": 5,
+  "cases": {
+   "healthy": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "r_min": {
+     "healthy": 0.7871
+    },
+    "r_p001": {
+     "healthy": 0.8418
+    },
+    "beta_range": {
+     "healthy": [
+      0.591,
+      1.508
+     ]
+    },
+    "detect_class": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "p_window_below_th": 0.0002081450573518172,
+    "false_trips_per_hour_est": 0.0032463908700623057
+   },
+   "open_inductor": {
+    "false_trips": 3,
+    "false_trip_examples": [
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.8778793917617095,
+      "category": "survivor_reconf_1ms"
+     },
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.45589618849111313,
+      "category": "survivor_reconf_1ms"
+     }
+    ],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": -0.6135,
+     "survivor_reconf_1ms": 0.1902,
+     "survivor_steady": 0.8185
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": -0.6126,
+     "survivor_reconf_1ms": 0.2126,
+     "survivor_steady": 0.8406
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      -0.522,
+      1.453
+     ],
+     "survivor_reconf_1ms": [
+      0.164,
+      2.0
+     ],
+     "survivor_steady": [
+      0.587,
+      1.508
+     ]
+    },
+    "detect_class": [
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004041430715119901
+   },
+   "shorted_switch": {
+    "false_trips": 2,
+    "false_trip_examples": [
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.8828127701712422,
+      "category": "survivor_reconf_1ms"
+     },
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.43245452245202615,
+      "category": "survivor_reconf_1ms"
+     }
+    ],
+    "detect_latency_us": [
+     61.6,
+     61.6,
+     61.6,
+     61.6,
+     61.6
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": -0.9317,
+     "survivor_reconf_1ms": 0.2127,
+     "survivor_steady": 0.8028
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": -0.9306,
+     "survivor_reconf_1ms": 0.2223,
+     "survivor_steady": 0.843
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      -0.469,
+      1.279
+     ],
+     "survivor_reconf_1ms": [
+      0.182,
+      2.015
+     ],
+     "survivor_steady": [
+      0.585,
+      1.507
+     ]
+    },
+    "detect_class": [
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0036551416792276093
+   },
+   "open_diode": {
+    "false_trips": 3,
+    "false_trip_examples": [
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.8778793917617095,
+      "category": "survivor_reconf_1ms"
+     },
+     {
+      "t": 0.05013220012187958,
+      "phase": 2,
+      "r": 0.45589618849111313,
+      "category": "survivor_reconf_1ms"
+     }
+    ],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": 0.4437,
+     "survivor_reconf_1ms": 0.1902,
+     "survivor_steady": 0.8052
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": 0.4467,
+     "survivor_reconf_1ms": 0.2126,
+     "survivor_steady": 0.8413
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      0.341,
+      4.193
+     ],
+     "survivor_reconf_1ms": [
+      0.164,
+      2.0
+     ],
+     "survivor_steady": [
+      0.586,
+      1.508
+     ]
+    },
+    "detect_class": [
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004149981195020259
+   }
+  }
+ },
+ {
+  "tag": "c150u_noisy",
+  "noise": 5.0,
+  "th": 0.8,
+  "blank_ms": 0.3,
+  "adaptive": true,
+  "seeds": 5,
+  "cases": {
+   "healthy": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "r_min": {
+     "healthy": 0.7871
+    },
+    "r_p001": {
+     "healthy": 0.8418
+    },
+    "beta_range": {
+     "healthy": [
+      0.591,
+      1.508
+     ]
+    },
+    "detect_class": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "p_window_below_th": 0.0002081450573518172,
+    "false_trips_per_hour_est": 0.0032463908700623057
+   },
+   "open_inductor": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": -0.6135,
+     "survivor_reconf_1ms": 0.1902,
+     "survivor_steady": 0.8185
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": -0.6126,
+     "survivor_reconf_1ms": 0.2126,
+     "survivor_steady": 0.8406
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      -0.522,
+      1.453
+     ],
+     "survivor_reconf_1ms": [
+      0.164,
+      2.0
+     ],
+     "survivor_steady": [
+      0.587,
+      1.508
+     ]
+    },
+    "detect_class": [
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004041430715119901
+   },
+   "shorted_switch": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     61.6,
+     61.6,
+     61.6,
+     61.6,
+     61.6
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": -0.9317,
+     "survivor_reconf_1ms": 0.2127,
+     "survivor_steady": 0.8028
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": -0.9306,
+     "survivor_reconf_1ms": 0.2223,
+     "survivor_steady": 0.843
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      -0.469,
+      1.279
+     ],
+     "survivor_reconf_1ms": [
+      0.182,
+      2.015
+     ],
+     "survivor_steady": [
+      0.585,
+      1.507
+     ]
+    },
+    "detect_class": [
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0036551416792276093
+   },
+   "open_diode": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": 0.4437,
+     "survivor_reconf_1ms": 0.1902,
+     "survivor_steady": 0.8052
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": 0.4467,
+     "survivor_reconf_1ms": 0.2126,
+     "survivor_steady": 0.8413
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      0.341,
+      4.193
+     ],
+     "survivor_reconf_1ms": [
+      0.164,
+      2.0
+     ],
+     "survivor_steady": [
+      0.586,
+      1.508
+     ]
+    },
+    "detect_class": [
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004149981195020259
+   }
+  }
+ },
+ {
+  "tag": "c150u_noisy",
+  "noise": 5.0,
+  "th": 0.8,
+  "blank_ms": 1.0,
+  "adaptive": true,
+  "seeds": 5,
+  "cases": {
+   "healthy": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "r_min": {
+     "healthy": 0.7871
+    },
+    "r_p001": {
+     "healthy": 0.8418
+    },
+    "beta_range": {
+     "healthy": [
+      0.591,
+      1.508
+     ]
+    },
+    "detect_class": [
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "p_window_below_th": 0.0002081450573518172,
+    "false_trips_per_hour_est": 0.0032463908700623057
+   },
+   "open_inductor": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": -0.6135,
+     "survivor_reconf_1ms": 0.1902,
+     "survivor_steady": 0.8185
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": -0.6126,
+     "survivor_reconf_1ms": 0.2126,
+     "survivor_steady": 0.8406
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      -0.522,
+      1.453
+     ],
+     "survivor_reconf_1ms": [
+      0.164,
+      2.0
+     ],
+     "survivor_steady": [
+      0.587,
+      1.508
+     ]
+    },
+    "detect_class": [
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor",
+     "open_inductor"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004041430715119901
+   },
+   "shorted_switch": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     61.6,
+     61.6,
+     61.6,
+     61.6,
+     61.6
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": -0.9317,
+     "survivor_reconf_1ms": 0.2127,
+     "survivor_steady": 0.8028
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": -0.9306,
+     "survivor_reconf_1ms": 0.2223,
+     "survivor_steady": 0.843
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      -0.469,
+      1.279
+     ],
+     "survivor_reconf_1ms": [
+      0.182,
+      2.015
+     ],
+     "survivor_steady": [
+      0.585,
+      1.507
+     ]
+    },
+    "detect_class": [
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch",
+     "shorted_switch"
+    ],
+    "survivor_false_trips_per_hour_est": 0.0036551416792276093
+   },
+   "open_diode": {
+    "false_trips": 0,
+    "false_trip_examples": [],
+    "detect_latency_us": [
+     62.2,
+     62.2,
+     62.2,
+     62.2,
+     62.2
+    ],
+    "r_min": {
+     "healthy": 0.8311,
+     "faulted": 0.4437,
+     "survivor_reconf_1ms": 0.1902,
+     "survivor_steady": 0.8052
+    },
+    "r_p001": {
+     "healthy": 0.8482,
+     "faulted": 0.4467,
+     "survivor_reconf_1ms": 0.2126,
+     "survivor_steady": 0.8413
+    },
+    "beta_range": {
+     "healthy": [
+      0.629,
+      1.38
+     ],
+     "faulted": [
+      0.341,
+      4.193
+     ],
+     "survivor_reconf_1ms": [
+      0.164,
+      2.0
+     ],
+     "survivor_steady": [
+      0.586,
+      1.508
+     ]
+    },
+    "detect_class": [
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode",
+     "open_diode"
+    ],
+    "survivor_false_trips_per_hour_est": 0.004149981195020259
+   }
+  }
+ }
+]
