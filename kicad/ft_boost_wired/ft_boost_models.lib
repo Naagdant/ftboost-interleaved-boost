@@ -1,0 +1,90 @@
+* ft_boost_models.lib — behavioral/device models for the fault-tolerant
+* two-phase interleaved boost converter (KiCad / ngspice).
+*
+* All values are generic or datasheet-typical; replace with vendor models
+* (and your measured G2RL data) when available. See DESIGN_NOTES.md.
+
+*---------------------------------------------------------------------------
+* Omron G2RL-1A (12 VDC coil) — contact as voltage-controlled switch.
+* Coil 360 ohm (33.3 mA @ 12 V). Must-operate 70 % (8.4 V), must-release
+* 10 % (1.2 V) -> vt=4.8, vh=3.6. Operate/release TIMING IS IDEALIZED here;
+* the controller applies an optional release delay (sim/controller.py).
+* Port order = KiCad symbol pin order: 13 (COM), 14 (NO), A1, A2 (coil).
+*---------------------------------------------------------------------------
+.subckt G2RL1A COM NO A1 A2
+Rcoil A1 A2 360
+S1 COM NO A1 A2 SWG2RL
+.model SWG2RL sw vt=4.8 vh=3.6 ron=0.05 roff=100Meg
+.ends G2RL1A
+
+*---------------------------------------------------------------------------
+* 4-terminal Kelvin shunt, 10 mohm. Ports: F1 S1 S2 F2 (force, sense, sense, force)
+*---------------------------------------------------------------------------
+.subckt RSHUNT10M F1 S1 S2 F2
+R1 F1 F2 10m
+RS1 F1 S1 1m
+RS2 F2 S2 1m
+.ends RSHUNT10M
+
+*---------------------------------------------------------------------------
+* TI AMC1300 reinforced-isolated amplifier (behavioral).
+* +/-250 mV linear input, fixed gain 8.2 (differential out), ~300 kHz
+* bandwidth, ~2 us signal delay, 1.44 V output common mode.
+* Pins: VDD1 VINP VINN GND1 GND2 VOUTN VOUTP VDD2
+*---------------------------------------------------------------------------
+.subckt AMC1300 VDD1 VINP VINN GND1 GND2 VOUTN VOUTP VDD2
+Rq1 VDD1 GND1 1k
+Rq2 VDD2 GND2 1k
+Bin n1 0 V = max(-0.25, min(0.25, V(VINP,VINN)))
+R1 n1 n2 1k
+C1 n2 0 530p
+Ebuf n2b 0 n2 0 1
+T1 n2b 0 n3 0 td=2u z0=1k
+Rt n3 0 1k
+Bp VOUTP GND2 V = 1.44 + 4.1*V(n3)
+Bn VOUTN GND2 V = 1.44 - 4.1*V(n3)
+.ends AMC1300
+
+*---------------------------------------------------------------------------
+* 650 V N-channel power MOSFET (generic superjunction-class VDMOS),
+* Rds(on) ~ 80 mohm, body-diode avalanche at 650 V.
+* Ports: D G S
+*---------------------------------------------------------------------------
+.subckt NMOS650V D G S
+M1 D G S VDM650
+.model VDM650 VDMOS(Rg=1.5 Vto=3.8 Rd=50m Rs=8m Rb=30m Kp=25 Lambda=0.01
++ Cgdmax=1n Cgdmin=20p A=0.5 Cgs=2n Cjo=400p Is=1e-11 N=1.1 Tt=50n
++ bv=650 ibv=250u)
+.ends NMOS650V
+
+*---------------------------------------------------------------------------
+* 650 V SiC Schottky boost diode (generic). Ports: K A
+*---------------------------------------------------------------------------
+.subckt SICSBD650 K A
+D1 A K DSIC
+.model DSIC D(Is=5.9e-14 N=1.3 Rs=0.08 Cjo=250p M=0.5 Vj=1 bv=650 ibv=100u Tt=0)
+.ends SICSBD650
+
+*---------------------------------------------------------------------------
+* Freewheel diode (UF4007-class) and 100 V TVS (SMBJ100A-class, BV ~111 V)
+* used to clamp the inductive kick when a phase relay opens under current.
+*---------------------------------------------------------------------------
+.subckt DFAST K A
+D1 A K DUF
+.model DUF D(Is=1e-9 N=1.7 Rs=0.04 Cjo=20p Tt=50n bv=1000 ibv=10u)
+.ends DFAST
+
+.subckt TVS100 K A
+D1 A K DTVS
+.model DTVS D(Is=1e-12 N=1 Rs=0.5 Cjo=500p bv=111 ibv=1m)
+.ends TVS100
+
+*---------------------------------------------------------------------------
+* PWM comparator + gate driver: G-GND = 12 V while V(DUTY) > V(CARR).
+* Driving DUTY below 0 inhibits the gate (fault isolation).
+* Ports: G GND DUTY CARR
+*---------------------------------------------------------------------------
+.subckt PWM_GDRV G GND DUTY CARR
+B1 gi GND V = 6 + 6*tanh(5000*(V(DUTY)-V(CARR)))
+Rg gi G 4.7
+.ends PWM_GDRV

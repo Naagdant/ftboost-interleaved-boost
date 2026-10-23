@@ -1,0 +1,88 @@
+.title KiCad schematic
+.include "ft_boost_models.lib"
+.model __SSD2 SW
++             vt=0.5
++             ron=20m
++             roff=1G
+.model __SOL1 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SSD1 SW
++             vt=0.5
++             ron=20m
++             roff=1G
+.model __SOL2 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SOD1 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SSW1 SW
++             vt=0.5
++             ron=10m
++             roff=1G
+.model __SSW2 SW
++             vt=0.5
++             ron=10m
++             roff=1G
+.model __SOD2 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+RFB1 /VOUT /VFB 1.99Meg
+RFB2 /VFB GND 10k
+RESR1 Net-_COUT1-Pad2_ GND 10m
+RLOAD1 /VOUT GND 200
+COUT1 /VOUT Net-_COUT1-Pad2_ 14u
+VDUTY2 /DUTY2 GND DC 0.76 
+VFSW1 /FSW1 GND DC 0 
+VDUTY1 /DUTY1 GND DC 0.76 
+VFSW2 /FSW2 GND DC 0 
+XDZ2 GND Net-_DFW2-A_ TVS100
+XEG1 /G1 GND /DUTY1 /CAR1 PWM_GDRV
+VCAR2 /CAR2 GND PULSE( 0 1 10u 19.99u 10n 0 20u ) 
+VFOL2 /FOL2 GND DC 1 
+VFOL1 /FOL1 GND DC 1 
+VCAR1 /CAR1 GND PULSE( 0 1 0 19.99u 10n 0 20u ) 
+XEG2 /G2 GND /DUTY2 /CAR2 PWM_GDRV
+VFOD1 /FOD1 GND DC 1 
+VRLY1 /RLY1 GND DC 12 
+VISO2 /VISO2 /NS2 DC 5 
+VRLY2 /RLY2 GND DC 12 
+VFOD2 /FOD2 GND DC 1 
+VSSD1 /SSDC1 GND DC 1 
+VISO1 /VISO1 /NS1 DC 5 
+VSSD2 /SSDC2 GND DC 1 
+VAUX1 /V3V3 GND DC 3.3 
+XK2 Net-_CIN1-Pad1_ Net-_SSD2-N+_ /RLY2 GND G2RL1A
+CIN1 Net-_CIN1-Pad1_ GND 100u
+VIN1 Net-_RSRC1-Pad1_ GND DC 48 
+SSD2 Net-_SSD2-N+_ Net-_DFW2-K_ /SSDC2 GND __SSD2
+RSRC1 Net-_RSRC1-Pad1_ Net-_CIN1-Pad1_ 20m
+L1 Net-_L1-Pad1_ Net-_SOL1-N+_ 1m
+SOL1 Net-_SOL1-N+_ Net-_Q1-D_ /FOL1 GND __SOL1
+XU1 /VISO1 Net-_RSH1-Pad2_ Net-_RSH1-Pad3_ /NS1 GND /ISN1 /ISP1 /V3V3 AMC1300
+RDCR1 /NS1 Net-_L1-Pad1_ 60m
+XK1 Net-_CIN1-Pad1_ Net-_SSD1-N+_ /RLY1 GND G2RL1A
+SSD1 Net-_SSD1-N+_ Net-_DFW1-K_ /SSDC1 GND __SSD1
+XRSH1 Net-_DFW1-K_ Net-_RSH1-Pad2_ Net-_RSH1-Pad3_ /NS1 RSHUNT10M
+XDFW1 Net-_DFW1-K_ Net-_DFW1-A_ DFAST
+XDZ1 GND Net-_DFW1-A_ TVS100
+L2 Net-_L2-Pad1_ Net-_SOL2-N+_ 1m
+RDCR2 /NS2 Net-_L2-Pad1_ 60m
+SOL2 Net-_SOL2-N+_ Net-_Q2-D_ /FOL2 GND __SOL2
+XU2 /VISO2 Net-_RSH2-Pad2_ Net-_RSH2-Pad3_ /NS2 GND /ISN2 /ISP2 /V3V3 AMC1300
+XRSH2 Net-_DFW2-K_ Net-_RSH2-Pad2_ Net-_RSH2-Pad3_ /NS2 RSHUNT10M
+XDFW2 Net-_DFW2-K_ Net-_DFW2-A_ DFAST
+SOD1 Net-_Q1-D_ Net-_D1-A_ /FOD1 GND __SOD1
+XD1 /VOUT Net-_D1-A_ SICSBD650
+XQ1 Net-_Q1-D_ /G1 GND NMOS650V
+SSW1 Net-_Q1-D_ GND /FSW1 GND __SSW1
+SSW2 Net-_Q2-D_ GND /FSW2 GND __SSW2
+XQ2 Net-_Q2-D_ /G2 GND NMOS650V
+XD2 /VOUT Net-_D2-A_ SICSBD650
+SOD2 Net-_Q2-D_ Net-_D2-A_ /FOD2 GND __SOD2
+.end
