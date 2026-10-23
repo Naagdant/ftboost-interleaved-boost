@@ -1,0 +1,93 @@
+* open_diode_rand00: case=open_diode relay_delay=0.005 ssd=True baseline=False noise=1.0
+* VDUTYk/VRLYk/VSSDk are ngspice 'external' sources driven by sim/controller.py
+.title KiCad schematic
+.include "../ft_boost_models.lib"
+.model __SSW1 SW
++             vt=0.5
++             ron=10m
++             roff=1G
+.model __SOD1 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SOL1 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SSW2 SW
++             vt=0.5
++             ron=10m
++             roff=1G
+.model __SOD2 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SOL2 SW
++             vt=0.5
++             ron=1m
++             roff=1G
+.model __SSD1 SW
++             vt=0.5
++             ron=20m
++             roff=1G
+.model __SSD2 SW
++             vt=0.5
++             ron=20m
++             roff=1G
+VFSW1 FSW1 0 DC 0
+SSW1 SW1 0 FSW1 0 __SSW1
+SOD1 SW1 NA1 FOD1 0 __SOD1
+XD1 VOUT NA1 SICSBD650
+SOL1 NLX1 SW1 FOL1 0 __SOL1
+VFOD1 FOD1 0 PWL(0 1 0.052008 1 0.0520081 0)
+VSSD1 SSDC1 0 dc 0 external
+XQ1 SW1 G1 0 NMOS650V
+SSW2 SW2 0 FSW2 0 __SSW2
+SOD2 SW2 NA2 FOD2 0 __SOD2
+XD2 VOUT NA2 SICSBD650
+XQ2 SW2 G2 0 NMOS650V
+SOL2 NLX2 SW2 FOL2 0 __SOL2
+RFB1 VOUT VFB 1.99Meg
+VFOD2 FOD2 0 DC 1
+VFSW2 FSW2 0 DC 0
+VSSD2 SSDC2 0 dc 0 external
+RFB2 VFB 0 10k
+VAUX1 V3V3 0 DC 3.3
+VDUTY1 DUTY1 0 dc 0 external
+XDFW1 NR1 NFW1 DFAST
+XK1 VIN NK1 RLY1 0 G2RL1A
+XDZ1 0 NFW1 TVS100
+XRSH1 NR1 SNP1 SNN1 NS1 RSHUNT10M
+XEG1 G1 0 DUTY1 CAR1 PWM_GDRV
+VCAR1 CAR1 0 PULSE( 0 1 0 19.99u 10n 0 20u )
+VCAR2 CAR2 0 PULSE( 0 1 10u 19.99u 10n 0 20u )
+XDFW2 NR2 NFW2 DFAST
+XDZ2 0 NFW2 TVS100
+XEG2 G2 0 DUTY2 CAR2 PWM_GDRV
+XK2 VIN NK2 RLY2 0 G2RL1A
+XRSH2 NR2 SNP2 SNN2 NS2 RSHUNT10M
+XU2 VISO2 SNP2 SNN2 NS2 0 ISN2 ISP2 V3V3 AMC1300
+VRLY1 RLY1 0 dc 0 external
+XU1 VISO1 SNP1 SNN1 NS1 0 ISN1 ISP1 V3V3 AMC1300
+VISO1 VISO1 NS1 DC 5
+RDCR1 NS1 NL1 60m
+L1 NL1 NLX1 1m
+SSD1 NK1 NR1 SSDC1 0 __SSD1
+VFOL1 FOL1 0 DC 1
+VISO2 VISO2 NS2 DC 5
+SSD2 NK2 NR2 SSDC2 0 __SSD2
+L2 NL2 NLX2 1m
+RDCR2 NS2 NL2 60m
+VFOL2 FOL2 0 DC 1
+RLOAD1 VOUT 0 200
+RESR1 NESR 0 10m
+COUT1 VOUT NESR 14u
+VRLY2 RLY2 0 dc 0 external
+VDUTY2 DUTY2 0 dc 0 external
+VIN1 VSRC 0 DC 48
+CIN1 VIN 0 100u
+RSRC1 VSRC VIN 20m
+.options reltol=1e-3 abstol=1e-9 vntol=1e-5 method=gear maxord=2 itl4=50
+.save v(vout) v(vin) v(vfb) v(nr1) v(ns1) v(nr2) v(ns2) v(isp1) v(isn1) v(isp2) v(isn2) v(sw1) v(sw2)
+.tran 5e-08 0.060008 0 5e-08 uic
+.end
