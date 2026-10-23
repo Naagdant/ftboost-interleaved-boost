@@ -1,0 +1,19 @@
+# raw simulation data (archived separately)
+*.npz
+*.npy
+results/*.png
+# Python
+__pycache__/
+*.pyc
+# KiCad local/backup files
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.bak
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+# generated paper files
+paper/
+paper_figs/

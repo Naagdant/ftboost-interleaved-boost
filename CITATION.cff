@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or these design files, please cite the paper below."
+title: "ftboost: fault-tolerant two-phase interleaved boost converter (KiCad + ngspice co-simulation)"
+authors:
+  - family-names: Bodha
+    given-names: Kapil Deo
+    affiliation: "School of Engineering and Technology, Noida International University, Greater Noida, India"
+  - family-names: Arun
+    given-names: Vanya
+    affiliation: "Department of Electrical and Electronics Engineering, IILM University, India"
+  - family-names: Awasthi
+    given-names: Ankita
+    affiliation: "Department of Mechanical and Allied Engineering, IILM University, India"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Fault-Tolerant Two-Phase Interleaved Boost Converter with Off-Time Template Diagnosis and Hybrid Solid-State/Relay Phase Isolation for 48 V Electric-Vehicle Buses"
+  authors:
+    - family-names: Bodha
+      given-names: Kapil Deo
+    - family-names: Arun
+      given-names: Vanya
+    - family-names: Awasthi
+      given-names: Ankita
+  status: submitted
